@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2680
-affiliate: false
+affiliate: true
 faq:
   - question: "What's the simple version of the math?"
     answer: "Compare your mortgage's after-tax effective rate to expected market return. If mortgage rate × (1 - marginal tax rate, if itemizing) > expected stock return, pay down the mortgage. Otherwise invest. With a 7% mortgage and not itemizing, effective rate is 7% — close to the S&P 500's 7% real return, so it's a wash. With a 4% mortgage in the 22% bracket and itemizing, effective rate is 3.12% — you should invest, since stocks return 7%+ historically. With a 7% mortgage and 22% bracket itemizing, effective rate is 5.46% — closer call."
@@ -79,6 +79,9 @@ faq:
     answer: "Three cases. (1) You have a paid-off-mortgage retirement plan and need to hit it by a specific year. (2) You're nervous about market volatility and won't stay invested through a 30%+ drawdown. (3) You want freedom — debt-free in retirement reduces required income by $20-30K/year (eliminating the mortgage payment), which can shift your 'minimum viable retirement' age earlier. The math may favor investing, but money is also for sleeping well at night."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The "should I pay off my mortgage early or invest?" question is supposed to be simple. The framing usually goes: "Your mortgage is a guaranteed 7% return — invest only if you can beat that." That framing is wrong. Vanguard's 1976-2024 return data, BLS inflation history, and IRS tax bracket effects together tell a more nuanced story — and the answer depends on your specific tax bracket, mortgage rate, and whether you itemize deductions.
 
@@ -239,3 +242,57 @@ It's right for high-rate mortgages without tax shield, for late-career homeowner
 Run your four numbers. The decision matters by hundreds of thousands over 30 years. The framing of "guaranteed return" is the easy answer; the actual answer requires looking at after-tax effective rates and real (inflation-adjusted) returns side by side.
 
 The cheapest debt you'll ever have is your home. The most expensive lesson is treating it like high-interest debt.
+
+## Books that frame the mortgage payoff vs invest decision
+
+The mortgage payoff vs invest math depends on tax brackets, rate environment, and emotional risk tolerance. These three books give the analytical framework — not the Twitter takes:
+
+<ProductBox
+  name="Stocks for the Long Run (Jeremy Siegel)"
+  priceHint="$25-35 — long-run equity return data"
+  pros={[
+    "Centuries of stock-vs-bond return data — anchors the investing side",
+    "Updated 6th edition with 2020s context",
+    "Strongest data-grounded defense of long-term equity allocation"
+  ]}
+  cons={[
+    "Dense — academic tone in some chapters",
+    "Less practical implementation than Bogle / Bernstein alternatives"
+  ]}
+  href="https://www.amazon.com/s?k=Stocks+for+the+Long+Run+Jeremy+Siegel+6th"
+  region="us"
+/>
+
+<ProductBox
+  name="The Simple Path to Wealth (JL Collins)"
+  priceHint="$15-22 — VTSAX-and-chill philosophy"
+  pros={[
+    "Concrete framework for VTSAX-style mortgage-pay-off-vs-invest math",
+    "Includes 'F-You Money' framing — strongest emotional lens",
+    "Pragmatic vs theoretical — actionable today"
+  ]}
+  cons={[
+    "Some readers find the conversational tone too informal",
+    "US-only investing guidance — limited international coverage"
+  ]}
+  href="https://www.amazon.com/s?k=Simple+Path+to+Wealth+JL+Collins"
+  region="us"
+/>
+
+<ProductBox
+  name="The Psychology of Money (Morgan Housel)"
+  priceHint="$15-22 — behavioral framing of trade-offs"
+  pros={[
+    "Behavioral framing — explains why payoff-or-invest depends on temperament",
+    "Short, story-driven — read in a weekend",
+    "Stuck on most personal-finance reading lists for good reason"
+  ]}
+  cons={[
+    "Less prescriptive — won't give you a final number",
+    "Some chapters feel like blog posts strung together"
+  ]}
+  href="https://www.amazon.com/s?k=Psychology+of+Money+Morgan+Housel"
+  region="us"
+/>
+
+Read Housel first to understand your own risk temperament. Add Collins for the practical math. Save Siegel for the year-2 quantitative read when you want to verify the equity-return assumptions.
