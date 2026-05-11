@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2580
-affiliate: false
+affiliate: true
 faq:
   - question: "What's the actual BLS data on job search duration?"
     answer: "BLS Current Population Survey 2024: median duration of unemployment is 8.5 weeks, but the average is 21 weeks (4.85 months). The distribution is heavily right-skewed — most people find work in 2-3 months, but those who don't take much longer. 26% of unemployed workers were unemployed 27+ weeks (long-term unemployment). For planning purposes, the average (4.85 months ≈ 4.5 months) is more useful than the median because emergency funds need to cover the worst case, not the typical case."
@@ -79,6 +79,9 @@ faq:
     answer: "Once you've hit your target months of expenses (3-6 depending on your situation), redirect new savings to retirement accounts. Don't oversave the emergency fund. $30K in cash earning 4.5% generates $1,350/year in taxable interest. The same $30K invested in a Roth IRA could generate $30K+ of tax-free retirement value over 25 years. Build the emergency fund to target, then stop. Replenish only when actually used."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The standard advice splits between "3 months of expenses" and "6 months of expenses." The data points to neither — BLS's 2024 unemployment duration shows average job search runs 21 weeks, or about 4.85 months. Federal Reserve emergency expense surveys, Bankrate's annual savings report, and Department of Labor unemployment claims data all support the same conclusion: 4-5 months covers most cases, 3 months is dangerously thin for the right tail of outcomes, and 6 months is more than most households need.
 
@@ -256,3 +259,57 @@ The right emergency fund target is 4-5 months of survival expenses for most U.S.
 The standard "3 months" advice under-saves for tech and finance workers. The standard "6 months" advice over-saves for stable dual-income households. The BLS data points to 4.5 months as the sensible default.
 
 Calculate your specific number once. Build to it methodically. Don't stop building until you hit it. Don't keep building after you do.
+
+## Personal finance books that frame emergency-fund sizing
+
+The 3-vs-6-month emergency fund decision depends on income stability and household risk profile. These three books frame the trade-offs without the typical motivational fluff:
+
+<ProductBox
+  name="I Will Teach You to Be Rich (Ramit Sethi, 2nd Edition)"
+  priceHint="$15-22 — automation-first personal finance"
+  pros={[
+    "Specific automation systems for savings, investing, and bills",
+    "Realistic on lifestyle vs deprivation — 'spend on what you love' framing",
+    "Updated 2nd edition with current account recommendations"
+  ]}
+  cons={[
+    "US-centric — UK/EU readers need to translate account types",
+    "Tone is conversational — some readers prefer a drier guide"
+  ]}
+  href="https://www.amazon.com/s?k=I+Will+Teach+You+to+Be+Rich+Ramit+Sethi+2nd"
+  region="us"
+/>
+
+<ProductBox
+  name="Your Money or Your Life (Vicki Robin)"
+  priceHint="$15-22 — life-energy framework for spending"
+  pros={[
+    "9-step program tying spending to life-energy hours worked",
+    "Strong framing for emergency fund sizing relative to monthly need",
+    "Updated 2018 edition for index-fund era"
+  ]}
+  cons={[
+    "Some 1990s examples feel dated; principles still hold",
+    "Frugality lean — not for high-income lifestyle optimizers"
+  ]}
+  href="https://www.amazon.com/s?k=Your+Money+or+Your+Life+Vicki+Robin"
+  region="us"
+/>
+
+<ProductBox
+  name="The Millionaire Next Door (Stanley & Danko)"
+  priceHint="$12-18 — research on actual millionaire habits"
+  pros={[
+    "Research-grounded — sociological study of US millionaires",
+    "Debunks 'big house + nice car = wealthy' assumption",
+    "Frames saving as wealth-accumulation engine vs income"
+  ]}
+  cons={[
+    "Examples are mid-1990s — economic context has shifted",
+    "Some readers find the framing repetitive across chapters"
+  ]}
+  href="https://www.amazon.com/s?k=Millionaire+Next+Door+Stanley+Danko"
+  region="us"
+/>
+
+Read Sethi first for actionable automation. Read Robin to develop emotional clarity on spending priorities. Use Stanley & Danko as the year-2 reality check that high spending derails most six-figure earners.
