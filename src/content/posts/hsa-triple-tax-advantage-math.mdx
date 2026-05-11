@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2640
-affiliate: false
+affiliate: true
 faq:
   - question: "What makes the HSA 'triple tax advantaged'?"
     answer: "Three tax breaks compound: (1) Contributions reduce current year taxable income (pre-tax through payroll, deductible if direct-to-bank). (2) Investment growth is tax-free — no capital gains, no dividend tax, no annual reporting. (3) Withdrawals for qualified medical expenses are tax-free at any age. Roth IRA gets benefits 2 and 3 only. Traditional 401(k) gets 1 and 2 only. The HSA is the only account that hits all three. Plus, contributions made through payroll also avoid FICA tax (7.65%) — a fourth advantage that makes the HSA effectively quadruple-tax-advantaged."
@@ -79,6 +79,9 @@ faq:
     answer: "Mad Fientist popularized the optimal play: contribute the max each year, pay medical expenses out-of-pocket from regular cash flow, save every medical receipt, and let the HSA balance grow tax-free for 30+ years. Then in retirement, reimburse decades of accumulated medical receipts tax-free. Result: a Roth-like account with no income limits and lower contribution limits but higher tax efficiency. Fidelity estimates a 65-year-old couple needs ~$315,000 for medical care in retirement; if you've contributed and invested $4,300/year for 30 years at 7% real return, you'll have $400,000+ — covering retirement healthcare entirely from tax-free dollars."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The HSA is the most tax-advantaged account in the U.S. tax code. It's the only account that combines pre-tax contribution, tax-free growth, and tax-free withdrawal — what Mad Fientist calls the "triple tax advantage." For high-income earners with HDHP coverage, the math beats a 401(k) match in most scenarios, beats a Roth IRA on every dimension, and provides flexibility that no retirement account matches.
 
@@ -215,3 +218,57 @@ For people with HDHP coverage, the HSA is the highest-quality tax-advantaged dol
 $4,300/year for 30 years at 7% real return = $440,000 in retirement, accessed tax-free for medical expenses (which most retirees have anyway). This is one of the few cases where the optimal strategy doesn't require sophistication — just consistency and a long horizon.
 
 The HSA isn't the right account for everyone. For most people who qualify, it's the best account they're not maxing.
+
+## Health-account books that unlock the HSA triple advantage
+
+HSA is the single most tax-advantaged retirement vehicle in the US tax code, and yet under-funded by most eligible households. These three books explain how to actually capture the triple advantage:
+
+<ProductBox
+  name="The HSA Owner's Manual (Todd Berkley)"
+  priceHint="$18-26 — dedicated HSA strategy book"
+  pros={[
+    "Step-by-step HSA contribution and investment strategy",
+    "Specific guidance on receipt-tracking + reimbursement timing",
+    "Roth-style HSA-as-retirement-vehicle framework"
+  ]}
+  cons={[
+    "Narrow scope — pair with broader retirement planning books",
+    "Tax-law specifics need annual cross-check"
+  ]}
+  href="https://www.amazon.com/s?k=HSA+Owners+Manual+Todd+Berkley"
+  region="us"
+/>
+
+<ProductBox
+  name="The Bogleheads' Guide to Retirement Planning"
+  priceHint="$22-32 — HSA chapter alone is worth the price"
+  pros={[
+    "Strong HSA chapter alongside Roth/Traditional/Taxable framework",
+    "Asset location strategy across all account types",
+    "Companion forum (Bogleheads.org) extends content with current Q&A"
+  ]}
+  cons={[
+    "Generalist book — HSA chapter is ~5% of total content",
+    "Long read for users who only want HSA specifics"
+  ]}
+  href="https://www.amazon.com/s?k=Bogleheads+Guide+to+Retirement+Planning"
+  region="us"
+/>
+
+<ProductBox
+  name="The White Coat Investor (Dr. James Dahle)"
+  priceHint="$20-28 — high-income tax-optimization context"
+  pros={[
+    "Strong sections on HSA + Backdoor Roth + 401k stacking",
+    "Written for high-earners — applicable to most full-time professionals",
+    "Companion blog updates continuously"
+  ]}
+  cons={[
+    "Medical-profession examples — translate for other roles",
+    "Some content overlaps with Bogleheads' Guide"
+  ]}
+  href="https://www.amazon.com/s?k=White+Coat+Investor+James+Dahle"
+  region="us"
+/>
+
+For dedicated HSA strategy, Berkley's HSA Owner's Manual is the strongest single book. Pair with the Bogleheads' Guide for the broader retirement-account context that makes HSA prioritization make sense.
