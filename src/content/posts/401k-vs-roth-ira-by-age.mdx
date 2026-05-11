@@ -59,7 +59,7 @@ sources:
 visualsCount: 7
 hasVideo: false
 wordCount: 2810
-affiliate: false
+affiliate: true
 faq:
   - question: "What's the median 401(k) balance by age?"
     answer: "Vanguard's How America Saves 2024 reports median balances: under-25 $1,948; 25-34 $14,068; 35-44 $39,492; 45-54 $74,642; 55-64 $122,957; 65+ $99,985. The drop after 65 reflects withdrawals starting. These are medians (middle person); means are 2-3x higher due to top earners."
@@ -78,6 +78,9 @@ internalLinks:
   - "/about"
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The 401(k) vs. Roth IRA question is presented as a binary choice in most financial press. The data from Vanguard, Fidelity, and the Federal Reserve tells a different story: the median American household uses both, and the optimal strategy depends on age, income, and employer benefits.
 
@@ -204,3 +207,57 @@ The data is clear:
 - **Both accounts is normal** — tax diversification beats single-strategy purity.
 
 For most US workers in 2025: contribute enough to 401(k) for full match, then max Roth IRA, then return to 401(k). The order is consistent across FINRA, Vanguard, and Fidelity guidance.
+
+## Books that demystify the 401k vs Roth IRA decision
+
+The 401k vs Roth IRA math is straightforward in principle and brutal in practice (RMDs, tax brackets in retirement, employer match maximization). These three books cover the full decision space:
+
+<ProductBox
+  name="The Bogleheads' Guide to Retirement Planning"
+  priceHint="$22-32 — community-validated retirement-account playbook"
+  pros={[
+    "Side-by-side 401k vs Roth math by income tier",
+    "Backdoor Roth, mega backdoor Roth, and conversion mechanics explained",
+    "RMD timing and Roth conversion ladder strategies"
+  ]}
+  cons={[
+    "Tax-law specifics need annual cross-check",
+    "Long (400+ pages) — read by sections, not cover-to-cover"
+  ]}
+  href="https://www.amazon.com/s?k=Bogleheads+Guide+to+Retirement+Planning"
+  region="us"
+/>
+
+<ProductBox
+  name="The Backdoor Roth IRA (Stephen Pollack)"
+  priceHint="$10-18 — narrow but essential for high earners"
+  pros={[
+    "Step-by-step Backdoor Roth implementation for over-MAGI earners",
+    "Pro-rata rule explained with concrete examples",
+    "Specific to TIRA conversion mechanics — narrow but deep"
+  ]}
+  cons={[
+    "Short — not a comprehensive retirement guide",
+    "Some references to specific brokerages may shift over years"
+  ]}
+  href="https://www.amazon.com/s?k=Backdoor+Roth+IRA+book"
+  region="us"
+/>
+
+<ProductBox
+  name="The Total Money Makeover (Dave Ramsey)"
+  priceHint="$15-22 — debt-first framework"
+  pros={[
+    "Baby Steps framework gives concrete savings priority order",
+    "Strong for debt-burdened readers before they think about retirement",
+    "Updated edition with current 401k contribution limits"
+  ]}
+  cons={[
+    "Some investment advice (load-funds, no index) is questionable",
+    "Anti-debt extremism doesn't fit every household income profile"
+  ]}
+  href="https://www.amazon.com/s?k=Total+Money+Makeover+Dave+Ramsey"
+  region="us"
+/>
+
+Bogleheads' Guide is the strongest single read. Add the Backdoor Roth book if you're at MAGI limits, and Ramsey if you have non-mortgage debt to clear before maxing retirement accounts.
