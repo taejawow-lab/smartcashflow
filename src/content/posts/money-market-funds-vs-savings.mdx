@@ -58,7 +58,7 @@ faq:
     answer: "FDIC insures bank deposit accounts up to 250,000 dollars per depositor per bank against bank failure. SIPC insures brokerage accounts up to 500,000 dollars (250,000 cash) against brokerage failure, but does NOT insure against fund value declines. SIPC covers theft or loss of securities; it does not cover money market fund 'breaking the buck' losses. Bank money market accounts are FDIC-insured; brokerage money market funds are not."
   - question: "Can I write checks against a money market fund?"
     answer: "Yes, most money market funds at major brokerages allow check writing with minimum check amounts (typically 250-500 dollars). The transaction completes as a redemption from the fund. Mobile transfers, ACH, and online bill pay are all available through your brokerage. For a checking-account-equivalent experience plus higher yield, this works well as a primary cash management account."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,11 +68,21 @@ Money market funds compete with high yield savings accounts as the primary home 
 
 ## How Money Market Funds Work
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-mmf-tbill.png" alt="Treasury bills versus money market mutual fund comparison chart" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 A money market fund pools investor capital and buys short-term high-quality debt instruments — typically Treasury bills, federal agency notes, commercial paper, and repurchase agreements. The fund pays interest daily based on the underlying yields and maintains a stable 1 dollar share price (so 1,000 shares always equals 1,000 dollars regardless of market conditions). The yield "passes through" to investors at the underlying portfolio yield minus the fund's expense ratio.
 
 The expense ratio matters. VMFXX charges 0.11 percent annually. SPRXX charges 0.42 percent. SWVXX (Schwab) charges 0.34 percent. The expense ratio is deducted from yield before payment to investors, so a fund yielding 5.0 percent on its portfolio with 0.42 expense pays you 4.58 percent. Government money market funds tend to have lower expense ratios because the underlying portfolio is simpler.
 
 ## Top Pick — Vanguard Federal Money Market
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-mmf-sweep.png" alt="Cash sweep account at brokerage with high yield rate displayed" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Vanguard Federal Money Market Fund (VMFXX)"
@@ -90,6 +100,11 @@ The state tax exemption matters in high-tax states. Treasury interest is fully s
 
 ## Fidelity Pick — Fidelity Government Money Market
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-mmf-liquid.png" alt="Liquid emergency fund stored in money market with quick access symbol" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Fidelity Government Money Market (SPAXX or FDLXX)"
   priceHint="0.42% expense ratio (SPAXX) or 0.42% (FDLXX, higher rate)"
@@ -105,6 +120,11 @@ For Fidelity account holders, FDLXX is the right choice over the default SPAXX s
 The default SPAXX sweep at Fidelity is automatic — cash sitting in your brokerage earns money market yield without any user action. For users with regular cash flows in and out of brokerage (dividend reinvestment, periodic deposits, occasional withdrawals), the automatic sweep eliminates the manual transfer friction that plagues some other brokerages.
 
 ## Prime Pick — Fidelity Prime For Highest Yield
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-mmf-holdings.png" alt="SEC government money market fund holdings breakdown pie chart" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Fidelity Prime Money Market (SPRXX)"
