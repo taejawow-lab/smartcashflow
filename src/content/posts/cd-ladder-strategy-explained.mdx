@@ -58,7 +58,7 @@ faq:
     answer: "Typical bank CDs charge 3-12 months of interest penalty for early withdrawal. The longer the original CD term, the higher the typical penalty. For a 5-year CD with 6-month penalty, withdrawing in month 24 forfeits 6 months of the 24 months earned — net positive but reduced yield. Brokered CDs can be sold on secondary market instead, where the price depends on current interest rates."
   - question: "Should I include Treasury bills in a CD ladder?"
     answer: "Treasury bills (T-bills) often beat CDs on equivalent yield after considering state tax. T-bill interest is exempt from state and local tax. CD interest is fully taxable. For users in high-state-tax states (California, New York, New Jersey), the after-tax yield difference makes T-bills the better choice for short-term ladder rungs. Mix CDs (long term) with T-bills (short term, 4-52 weeks) for optimal after-tax yield."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,17 +68,32 @@ CD ladders provide rate certainty and meaningfully higher yields than savings ac
 
 ## How A CD Ladder Actually Works
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-cd-doc.png" alt="Bank certificate of deposit document with interest rate and maturity date on desk" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The traditional 5-year ladder works as follows. Split your principal into 5 equal portions. Buy a 1-year, 2-year, 3-year, 4-year, and 5-year CD each at 20 percent of the principal. After year 1, the 1-year CD matures — reinvest in a new 5-year CD. After year 2, the original 2-year CD matures — reinvest in a new 5-year CD. After 5 years, all CDs in your ladder are 5-year CDs at varying remaining maturities (4, 3, 2, 1, 0 years), with one maturing each year for ongoing reinvestment.
 
 The benefits compound. You always have approximately one fifth of your principal maturing within 12 months for liquidity. You always earn approximately the 5-year CD rate on the entire portfolio. Rate risk (locking in a low rate that prevails for the entire CD term) is mitigated because only 20 percent rolls each year. This is the standard structure and works well in most rate environments.
 
 ## Step 1 — Choose Your Total Ladder Amount
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-cd-calendar.png" alt="CD maturity calendar showing reinvestment timeline with arrows" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The right CD ladder size is money you do not need within the next year but want yielding more than HYSA. Common amounts: 20,000-50,000 dollars for working savers, 100,000-300,000 dollars for near-retirees, 500,000+ for retirees living partly off ladder maturities.
 
 Below 10,000 dollars, the per-CD amount becomes too small to be efficient. Stay in HYSA for emergency fund and small reserves. Above 250,000 dollars per bank, FDIC coverage limits apply — distribute across multiple banks or use brokered CDs from multiple issuers within one brokerage account.
 
 ## Step 2 — Choose Bank Or Brokered
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-cd-brokered.png" alt="Brokered CD vs bank CD comparison chart on laptop" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 Bank CDs work for users who prefer simplicity. Open one Marcus account, click through the ladder setup, monitor maturities. Marcus and Ally both offer pre-built ladder structures that automate the maturity tracking.
 
@@ -87,6 +102,11 @@ Brokered CDs work for users who already have a brokerage account (Fidelity, Schw
 For most users, brokered CDs at an existing brokerage are the right choice — better rates, easier management, consolidated tax reporting on one 1099-INT.
 
 ## Step 3 — Build The Ladder
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/scf-c1-cd-penalty.png" alt="Early withdrawal penalty calculation for CD with red warning indicator" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 For a 50,000 dollar ladder at Fidelity, the implementation:
 
