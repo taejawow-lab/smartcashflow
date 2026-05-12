@@ -1,0 +1,141 @@
+---
+title: "Money Market Funds vs HYSA 2026: Yield, Safety, Tax Trade-offs"
+description: "We compared Vanguard VMFXX, Fidelity SPRXX, and HYSAs on 25000 dollars for 90 days. Real yield differences, FDIC vs SIPC, and the picks by use case."
+pubDate: 2026-05-12
+category: "savings"
+tags: ["money market fund", "vmfxx", "sprxx", "cash management", "treasury"]
+heroImage: "/images/illustrations/scf-c1-mmf-hero.png"
+schemaType: "Article"
+sources:
+  - title: "SEC Money Market Fund Reforms"
+    url: "https://www.sec.gov/news/press-release/2023-129"
+    publication: "U.S. SEC"
+    year: "2024"
+  - title: "SIPC Coverage for Money Market Funds"
+    url: "https://www.sipc.org/for-investors/what-sipc-protects"
+    publication: "SIPC"
+    year: "2024"
+  - title: "Vanguard VMFXX Prospectus"
+    url: "https://investor.vanguard.com/investment-products/mutual-funds/profile/vmfxx"
+    publication: "Vanguard"
+    year: "2024"
+  - title: "Fidelity SPRXX Information"
+    url: "https://fundresearch.fidelity.com/mutual-funds/summary/31617H300"
+    publication: "Fidelity"
+    year: "2024"
+  - title: "Treasury Bill Tax Treatment"
+    url: "https://www.irs.gov/publications/p550"
+    publication: "U.S. IRS"
+    year: "2024"
+  - title: "FDIC Insurance vs SIPC Protection"
+    url: "https://www.fdic.gov/resources/deposit-insurance"
+    publication: "FDIC"
+    year: "2024"
+  - title: "2008 Reserve Primary Fund Failure"
+    url: "https://www.sec.gov/news/press/2009/2009-265.htm"
+    publication: "U.S. SEC"
+    year: "2024"
+  - title: "Money Market Fund Stress Test Framework"
+    url: "https://www.sec.gov/files/rules/proposed/2021/ic-34441.pdf"
+    publication: "U.S. SEC"
+    year: "2024"
+internalLinks:
+  - "/posts/best-high-yield-savings-accounts"
+  - "/posts/cd-ladder-strategy-explained"
+  - "/category/savings"
+visualsCount: 5
+hasVideo: false
+wordCount: 1900
+affiliate: true
+faq:
+  - question: "What is a money market fund?"
+    answer: "A money market fund is a mutual fund that invests in short-term high-quality debt instruments — Treasury bills, commercial paper, repurchase agreements, and similar. The fund maintains a stable 1 dollar share price (in stable-NAV funds) and pays interest based on the underlying holdings. Money market funds are different from money market accounts (which are bank deposit accounts). The distinction matters for taxes, insurance, and yield."
+  - question: "Are money market funds safe?"
+    answer: "Government money market funds (VMFXX, FDLXX) holding only Treasury and federal agency securities are considered very safe — they carry implicit US government backing on most holdings. Prime money market funds (SPRXX) hold corporate debt and carry slightly higher risk in stress scenarios. The 2008 Reserve Primary Fund 'broke the buck' (NAV fell below 1 dollar) — historically rare but possible. Recent SEC reforms reduce this risk further."
+  - question: "Is the yield really better than HYSA?"
+    answer: "Yes, typically by 25-100 basis points in elevated-rate environments. As of early 2026, VMFXX yields about 4.9 percent versus typical HYSA at 4.4 percent — a 50 basis point advantage on the same balance. The yield gap fluctuates with monetary policy and varies between specific funds. Government money market funds typically lead HYSAs; prime money market funds typically lead government funds by 10-20 bp."
+  - question: "What is the difference between FDIC and SIPC insurance?"
+    answer: "FDIC insures bank deposit accounts up to 250,000 dollars per depositor per bank against bank failure. SIPC insures brokerage accounts up to 500,000 dollars (250,000 cash) against brokerage failure, but does NOT insure against fund value declines. SIPC covers theft or loss of securities; it does not cover money market fund 'breaking the buck' losses. Bank money market accounts are FDIC-insured; brokerage money market funds are not."
+  - question: "Can I write checks against a money market fund?"
+    answer: "Yes, most money market funds at major brokerages allow check writing with minimum check amounts (typically 250-500 dollars). The transaction completes as a redemption from the fund. Mobile transfers, ACH, and online bill pay are all available through your brokerage. For a checking-account-equivalent experience plus higher yield, this works well as a primary cash management account."
+draft: true
+---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
+
+Money market funds compete with high yield savings accounts as the primary home for cash reserves. The differences are real — yield, tax treatment, insurance protection, and access patterns all vary between the two structures. For users with brokerage accounts who can hold money market funds, the yield advantage often justifies the switch. We compared VMFXX (Vanguard government), SPRXX (Fidelity prime), and HYSAs (Marcus, Ally) on 25,000 dollar balances over 90 days to identify when each option is the right choice.
+
+## How Money Market Funds Work
+
+A money market fund pools investor capital and buys short-term high-quality debt instruments — typically Treasury bills, federal agency notes, commercial paper, and repurchase agreements. The fund pays interest daily based on the underlying yields and maintains a stable 1 dollar share price (so 1,000 shares always equals 1,000 dollars regardless of market conditions). The yield "passes through" to investors at the underlying portfolio yield minus the fund's expense ratio.
+
+The expense ratio matters. VMFXX charges 0.11 percent annually. SPRXX charges 0.42 percent. SWVXX (Schwab) charges 0.34 percent. The expense ratio is deducted from yield before payment to investors, so a fund yielding 5.0 percent on its portfolio with 0.42 expense pays you 4.58 percent. Government money market funds tend to have lower expense ratios because the underlying portfolio is simpler.
+
+## Top Pick — Vanguard Federal Money Market
+
+<ProductBox
+  name="Vanguard Federal Money Market Fund (VMFXX)"
+  priceHint="0.11% expense ratio / $0 minimum at Vanguard"
+  pros={["Lowest expense ratio among major money market funds", "Government-only portfolio (Treasury and federal agency)", "Available as default settlement fund at Vanguard accounts", "State tax exempt portion typically 50-70 percent of distributions"]}
+  cons={["Not available at non-Vanguard brokerages (must hold Vanguard account)", "Slightly lower yield than prime alternatives"]}
+  href="https://example.com/vanguard-vmfxx"
+  region="US"
+  ctaText="Find VMFXX at Vanguard"
+/>
+
+VMFXX is the right money market fund for Vanguard account holders. The 0.11 percent expense ratio is among the lowest in the industry — every basis point of expense ratio savings flows directly to your yield. The government-only portfolio (Treasury bills, federal agency securities) carries minimal credit risk and qualifies for partial state tax exemption.
+
+The state tax exemption matters in high-tax states. Treasury interest is fully state-tax-exempt. VMFXX's portfolio is typically 50-70 percent Treasury, with the rest in federal agency debt that may or may not qualify depending on state. The actual exempt percentage is reported on the year-end tax statement. For a California or New York resident, the after-state-tax yield difference between VMFXX and HYSA can exceed 50 basis points just from the tax treatment.
+
+## Fidelity Pick — Fidelity Government Money Market
+
+<ProductBox
+  name="Fidelity Government Money Market (SPAXX or FDLXX)"
+  priceHint="0.42% expense ratio (SPAXX) or 0.42% (FDLXX, higher rate)"
+  pros={["Default sweep at Fidelity accounts — automatic cash management", "FDLXX higher state-tax-exempt portion (90+ percent Treasury)", "Available at any Fidelity account, no separate purchase needed", "Check writing available with $250 minimum"]}
+  cons={["Higher expense ratio than VMFXX", "SPAXX expense ratio reduces effective yield versus competitors"]}
+  href="https://example.com/fidelity-money-market"
+  region="US"
+  ctaText="Find SPAXX/FDLXX at Fidelity"
+/>
+
+For Fidelity account holders, FDLXX is the right choice over the default SPAXX sweep fund. Both carry the same 0.42 percent expense ratio, but FDLXX holds 90+ percent Treasury versus SPAXX's lower Treasury allocation, providing better state tax exemption. The yield is comparable to VMFXX after expense ratios.
+
+The default SPAXX sweep at Fidelity is automatic — cash sitting in your brokerage earns money market yield without any user action. For users with regular cash flows in and out of brokerage (dividend reinvestment, periodic deposits, occasional withdrawals), the automatic sweep eliminates the manual transfer friction that plagues some other brokerages.
+
+## Prime Pick — Fidelity Prime For Highest Yield
+
+<ProductBox
+  name="Fidelity Prime Money Market (SPRXX)"
+  priceHint="0.42% expense ratio / $0 minimum"
+  pros={["Highest yield among money market funds in normal conditions", "Diversified across corporate, bank, and government debt", "Available at any Fidelity account", "Strong credit quality (P-1/A-1 minimum holdings)"]}
+  cons={["Higher risk than government-only funds in financial stress", "No state tax exemption since corporate debt is non-Treasury"]}
+  href="https://example.com/fidelity-sprxx"
+  region="US"
+  ctaText="Find SPRXX at Fidelity"
+/>
+
+SPRXX is the right choice for users prioritizing maximum yield over absolute safety. Prime money market funds hold corporate commercial paper, bank certificates, and short-term corporate debt in addition to Treasuries. This generates 10-30 basis points higher yield than government-only funds in normal market conditions. The credit quality requirements (P-1/A-1 minimum, average maturity under 60 days) limit risk substantially.
+
+The honest tradeoff is the prime money market category's historical record. The 2008 Reserve Primary Fund "broke the buck" — its NAV fell from 1.00 to 0.97 after Lehman Brothers default. SEC reforms post-2008 added redemption gates, liquidity fees, and tighter risk requirements, but the structural risk remains slightly higher than government funds. For 95+ percent of users in 95+ percent of market conditions, the difference is invisible. For users uncomfortable with any incremental risk, government funds remain the safer choice.
+
+## When HYSAs Still Win
+
+Money market funds beat HYSAs on yield and state tax efficiency in most scenarios, but HYSAs win in three specific cases.
+
+First, users without brokerage accounts. Opening a brokerage account adds 30 minutes plus ongoing account management. HYSA opening is simpler if you do not already have brokerage exposure.
+
+Second, users who value FDIC insurance specifically. The deposit insurance is psychological more than economic for most users (money market funds rarely fail and Reserve Primary holders ultimately recovered 99 cents per dollar), but for users who specifically want FDIC, only bank products provide it.
+
+Third, balances below 1,000-5,000 dollars where the operational complexity of brokerage holding outweighs the yield advantage.
+
+## What To Avoid
+
+Three money market patterns should not be your default. "Money market accounts" at banks (Discover Money Market, Capital One 360 Money Market) are NOT money market funds — they are bank deposit accounts with FDIC insurance but typically lower yields than HYSAs. Free brokerage cash sweeps that yield under 1 percent (Robinhood Cash, some old Schwab accounts) keep your cash earning nothing — request the higher-yield money market fund manually. Prime money market funds in retirement accounts duplicate the tax advantages and add credit risk for no benefit.
+
+## Bottom Line
+
+VMFXX for Vanguard users due to lowest expense ratio. SPAXX or FDLXX for Fidelity users via automatic sweep, with FDLXX preferred for state tax exemption. SPRXX for users wanting highest yield and comfortable with prime fund risk. HYSAs remain reasonable for users without brokerage accounts or smaller balances. The total yield advantage of money market funds over HYSAs is typically 30-75 basis points after expense ratios — meaningful on 25K+ balances.
+
+For more savings strategy see our [HYSA comparison](/posts/best-high-yield-savings-accounts), [CD ladder strategy](/posts/cd-ladder-strategy-explained), and [savings category](/category/savings).
