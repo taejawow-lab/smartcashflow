@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# Search engine bots ??explicit allow
+# Search engine bots — explicit allow
 User-agent: Googlebot
 Allow: /
 
