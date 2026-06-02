@@ -1,0 +1,189 @@
+{
+  "date": "2026-06-02",
+  "batch": "C",
+  "site": "smartcashflow",
+  "host": "gti13-direct",
+  "endpoint": "http://192.168.50.29:8188",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, unsafe animal handling, financial screen, medical procedure, fake warning label, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image"
+  },
+  "site_manifest": {
+    "slug": "autopay-subscription-cash-flow-audit-2026",
+    "title": "Autopay and Subscription Cash-Flow Audit: Prevent Surprise Billing",
+    "article": "src/content/posts/autopay-subscription-cash-flow-audit-2026.mdx",
+    "source_validation": [
+      {
+        "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+        "ok": false,
+        "error": "<HTTPError 403: 'Forbidden'>"
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/negative-options-continuity-plans-automatic-renewals-subscriptions",
+        "ok": false,
+        "error": "<HTTPError 403: 'Forbidden'>"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/answers/basics/",
+        "ok": true,
+        "status": 200,
+        "final": "https://www.consumerfinance.gov/consumer-tools/credit-cards/answers/basics/"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/",
+        "ok": true,
+        "status": 200,
+        "final": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/managing-your-money/",
+        "ok": false,
+        "error": "TimeoutError('The read operation timed out')"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+        "ok": true,
+        "status": 200,
+        "final": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/"
+      },
+      {
+        "url": "https://reportfraud.ftc.gov/",
+        "ok": true,
+        "status": 200,
+        "final": "https://reportfraud.ftc.gov/"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+        "ok": true,
+        "status": 200,
+        "final": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/"
+      }
+    ],
+    "assets": [
+      {
+        "file": "public/images/illustrations/scf-autopay-subscription-audit-2026-01.png",
+        "filename": "scf-autopay-subscription-audit-2026-01.png",
+        "suffix": "01",
+        "seed": 202606020905,
+        "prompt": "realistic monthly bill planning represented by plain blank envelopes, coins, pen, closed notebook without writing, no visible numbers no text no logos",
+        "prompt_id": "fd71a693-55c4-4a27-94da-b66672241e32",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_qa_smartcashflow_01_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1845101,
+        "qa_replacement": true
+      },
+      {
+        "file": "public/images/illustrations/scf-autopay-subscription-audit-2026-02.png",
+        "filename": "scf-autopay-subscription-audit-2026-02.png",
+        "suffix": "02",
+        "seed": 202606020906,
+        "prompt": "realistic subscription audit concept with closed laptop, blank colored sticky notes face down, cable, plain folder, no screen no text no logos",
+        "prompt_id": "1e1a6448-f623-4db4-aae4-c91ebaa1eb37",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_qa_smartcashflow_02_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1849958,
+        "qa_replacement": true
+      },
+      {
+        "file": "public/images/illustrations/scf-autopay-subscription-audit-2026-03.png",
+        "filename": "scf-autopay-subscription-audit-2026-03.png",
+        "suffix": "03",
+        "seed": 202606020907,
+        "prompt": "realistic payment card update planning with blank card silhouette, plain envelopes, coins, no readable text no numbers no logos",
+        "prompt_id": "d2e860cb-412c-45db-b14c-0ffe27f3f421",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_qa_smartcashflow_03_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1360153,
+        "qa_replacement": true
+      },
+      {
+        "file": "public/images/illustrations/scf-autopay-subscription-audit-2026-04.png",
+        "filename": "scf-autopay-subscription-audit-2026-04.png",
+        "suffix": "04",
+        "seed": 202606020908,
+        "prompt": "realistic cash flow buffer concept using unlabeled jars, coins, blank wooden blocks with no letters, no numbers no writing no logos",
+        "prompt_id": "d9853db1-9e15-4d5c-b48b-54e13ee50e60",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_qa_smartcashflow_04_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1513164,
+        "qa_replacement": true
+      },
+      {
+        "file": "public/images/illustrations/scf-autopay-subscription-audit-2026-05.png",
+        "filename": "scf-autopay-subscription-audit-2026-05.png",
+        "suffix": "05",
+        "seed": 202606020909,
+        "prompt": "realistic cancellation evidence folder with plain blank papers turned over, closed laptop, paperclip, no readable text no numbers no logos",
+        "prompt_id": "08b1f285-3bf9-4d23-a3bf-4c286141591a",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_qa_smartcashflow_05_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1597312,
+        "qa_replacement": true
+      }
+    ],
+    "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260602-smartcashflow-contact-sheet.jpg",
+    "visual_qa": "Final contact sheet regenerated after QA replacements; pending final vision inspection.",
+    "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260602-smartcashflow-contact-sheet-final.jpg",
+    "published_asset_count": 5
+  },
+  "qa_note": "Final MDX excludes QA-rejected assets; only assets listed here are referenced for publication."
+}
