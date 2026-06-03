@@ -1,0 +1,248 @@
+{
+  "generated_at": "2026-06-03T04:14:29Z",
+  "date": "2026-06-03",
+  "site": "smartcashflow",
+  "slug": "midyear-paycheck-withholding-checkup-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13-direct",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0
+      }
+    ]
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image"
+  },
+  "source_validation": [
+    {
+      "title": "Tax Withholding Estimator",
+      "url": "https://www.irs.gov/individuals/tax-withholding-estimator",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/individuals/tax-withholding-estimator"
+    },
+    {
+      "title": "About Form W-4, Employee\u2019s Withholding Certificate",
+      "url": "https://www.irs.gov/forms-pubs/about-form-w-4",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/forms-pubs/about-form-w-4"
+    },
+    {
+      "title": "Form W-4, Employee\u2019s Withholding Certificate",
+      "url": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/pub/irs-pdf/fw4.pdf"
+    },
+    {
+      "title": "Publication 505, Tax Withholding and Estimated Tax",
+      "url": "https://www.irs.gov/pub/irs-pdf/p505.pdf",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/pub/irs-pdf/p505.pdf"
+    },
+    {
+      "title": "Estimated taxes",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+    },
+    {
+      "title": "Paycheck Checkup",
+      "url": "https://www.irs.gov/paycheck-checkup",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/paycheck-checkup"
+    },
+    {
+      "title": "Tax withholding",
+      "url": "https://www.irs.gov/individuals/employees/tax-withholding",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/individuals/employees/tax-withholding"
+    },
+    {
+      "title": "Topic no. 306, Penalty for underpayment of estimated tax",
+      "url": "https://www.irs.gov/taxtopics/tc306",
+      "publication": "IRS",
+      "year": "2026 accessed",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.irs.gov/taxtopics/tc306"
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/images/illustrations/scf-withholding-checkup-2026-hero.png",
+      "filename": "scf-withholding-checkup-2026-hero.png",
+      "suffix": "hero",
+      "seed": 202606030801,
+      "prompt": "realistic personal finance desk for a midyear paycheck tax withholding checkup, blank laptop screen angled away, sealed blank pay stub envelope, neutral calculator with no visible numbers, coffee, organized folders, natural window light, no text no logos no readable screens",
+      "prompt_id": "f5805556-d472-4b36-a466-e12feade444b",
+      "raw_output": {
+        "filename": "hermes_scf_withholding_20260603_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.6,
+      "steps": 24,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1444837
+    },
+    {
+      "file": "public/images/illustrations/scf-withholding-checkup-2026-01.png",
+      "filename": "scf-withholding-checkup-2026-01.png",
+      "suffix": "01",
+      "seed": 202606030802,
+      "prompt": "realistic household budget review scene with two adults looking at blank pay envelopes and neutral notebook pages, calculator with display not visible, calm kitchen table, no text no logos no numbers",
+      "prompt_id": "f097fb60-fae6-4429-a2ca-597776e36cf4",
+      "raw_output": {
+        "filename": "hermes_scf_withholding_20260603_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.6,
+      "steps": 24,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1684334
+    },
+    {
+      "file": "public/images/illustrations/scf-withholding-checkup-2026-02.png",
+      "filename": "scf-withholding-checkup-2026-02.png",
+      "suffix": "02",
+      "seed": 202606031001,
+      "prompt": "realistic close view of sealed blank payroll envelopes and plain folders on a clean desk, calculator turned fully off with black display, no loose printed forms, no receipts, no text, no numbers, no logos, no readable marks",
+      "prompt_id": "fc33cd66-5421-4b50-8e2c-c03017bf66a5",
+      "raw_output": {
+        "filename": "hermes_scf_withholding_qa_20260603_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.6,
+      "steps": 24,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1304517,
+      "qa_regenerated": "replaced original due to contact-sheet visible text/screen artifacts"
+    },
+    {
+      "file": "public/images/illustrations/scf-withholding-checkup-2026-03.png",
+      "filename": "scf-withholding-checkup-2026-03.png",
+      "suffix": "03",
+      "seed": 202606031101,
+      "prompt": "realistic personal cash flow planning still life with plain unlabeled ceramic bowls, stacks of colored blank cards, closed laptop, calculator turned away, no jars, no labels, no writing, no text, no numbers, no screen, no logo",
+      "prompt_id": "92904bf5-6863-4f39-b633-6c0ea34600cf",
+      "raw_output": {
+        "filename": "hermes_scf_withholding_qa2_20260603_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.6,
+      "steps": 24,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1543202,
+      "qa_regenerated": "second replacement due to text-like labels on jars in prior contact sheet"
+    },
+    {
+      "file": "public/images/illustrations/scf-withholding-checkup-2026-04.png",
+      "filename": "scf-withholding-checkup-2026-04.png",
+      "suffix": "04",
+      "seed": 202606031003,
+      "prompt": "realistic side income planning desk with closed laptop, blank tan folders, receipts completely face down, coin jar, pen, no screens, no printed forms, no text, no numbers, no logos",
+      "prompt_id": "84ea734b-f9bd-4386-8ac1-84d28c8e8655",
+      "raw_output": {
+        "filename": "hermes_scf_withholding_qa_20260603_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.6,
+      "steps": 24,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1934818,
+      "qa_regenerated": "replaced original due to contact-sheet visible text/screen artifacts"
+    },
+    {
+      "file": "public/images/illustrations/scf-withholding-checkup-2026-05.png",
+      "filename": "scf-withholding-checkup-2026-05.png",
+      "suffix": "05",
+      "seed": 202606030806,
+      "prompt": "realistic end of year tax document prep station with blank folders, envelopes, file box, phone screen dark, warm professional lighting, no text no numbers no brand marks",
+      "prompt_id": "f88b0d36-b2b1-4fae-9d52-922b825cb716",
+      "raw_output": {
+        "filename": "hermes_scf_withholding_20260603_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, financial screen, payment screen, login screen, tax form text, social security number, credentials, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.6,
+      "steps": 24,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1378476
+    }
+  ],
+  "article": "src/content/posts/midyear-paycheck-withholding-checkup-2026.mdx",
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/smartcashflow-20260603-withholding-contact-sheet.jpg",
+  "visual_qa": {
+    "status": "pass",
+    "reviewed_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/smartcashflow-20260603-withholding-contact-sheet.jpg",
+    "notes": "Six topic-accurate GTI13 raster finance/tax planning images; no readable text/numbers, logos/brand marks, fake payment/login UI, URLs, credentials, distorted people/hands, or off-topic content observed in final contact sheet."
+  }
+}
