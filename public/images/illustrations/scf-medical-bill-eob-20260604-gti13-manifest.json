@@ -1,0 +1,209 @@
+{
+  "site": "smartcashflow",
+  "generated_at": "2026-06-04T04:13:52Z",
+  "date": "2026-06-04",
+  "batch": "C",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13-direct",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "system_stats_ok": true,
+  "queue_before": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, unsafe handling, financial screen, medical procedure, fake warning label, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image"
+  },
+  "sites": {
+    "smartcashflow": {
+      "slug": "medical-bill-eob-dispute-cash-flow-plan-2026",
+      "title": "Medical Bill and EOB Dispute Cash-Flow Plan",
+      "article": "src/content/posts/medical-bill-eob-dispute-cash-flow-plan-2026.mdx",
+      "source_validation": [
+        {
+          "url": "https://www.cms.gov/nosurprises/consumers",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://www.cms.gov/nosurprises/consumers/complaints-about-medical-billing",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/medical-debt/",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/blog/know-your-rights-when-you-get-medical-care/",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://www.healthcare.gov/using-marketplace-coverage/rights-and-protections/surprise-medical-bills/",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/resources/explanation-of-benefits",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+          "ok": true,
+          "status": 200,
+          "final": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/"
+        },
+        {
+          "url": "https://reportfraud.ftc.gov/",
+          "ok": true,
+          "status": 200,
+          "final": "https://reportfraud.ftc.gov/"
+        }
+      ],
+      "assets": [
+        {
+          "file": "public/images/illustrations/scf-medical-bill-eob-20260604-hero.png",
+          "filename": "scf-medical-bill-eob-20260604-hero.png",
+          "suffix": "hero",
+          "seed": 202606049201,
+          "prompt": "realistic household budget planning desk: closed plain manila folders, blank envelopes face down, eyeglasses, pen, simple calculator turned away with display not visible, no papers with printed lines, no forms, no words, no numbers, no logos",
+          "prompt_id": "2f01a4aa-8712-434f-ac53-9711ea8f1ced",
+          "raw_output": {
+            "filename": "hermes_batchc_20260604_regen3_smartcashflow_hero_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1721135,
+          "qa_regenerated": true,
+          "qa_regeneration_round": 3
+        },
+        {
+          "file": "public/images/illustrations/scf-medical-bill-eob-20260604-01.png",
+          "filename": "scf-medical-bill-eob-20260604-01.png",
+          "suffix": "01",
+          "seed": 202606049004,
+          "prompt": "realistic person sorting blank white papers and closed envelopes beside calculator, medical bill review concept, no printed forms, no handwriting, no numbers, no readable text",
+          "prompt_id": "726d1252-df0c-4a8e-bc97-d5abc64fa10a",
+          "raw_output": {
+            "filename": "hermes_batchc_20260604_regen_smartcashflow_01_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1548258,
+          "qa_regenerated": true
+        },
+        {
+          "file": "public/images/illustrations/scf-medical-bill-eob-20260604-02.png",
+          "filename": "scf-medical-bill-eob-20260604-02.png",
+          "suffix": "02",
+          "seed": 202606040321,
+          "prompt": "realistic phone call preparation for hospital billing office with blank notebook and laptop dark screen, no text",
+          "prompt_id": "baedb51b-436d-47f1-ba7c-4f386336072f",
+          "raw_output": {
+            "filename": "hermes_batchc_20260604_smartcashflow_02_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1261108
+        },
+        {
+          "file": "public/images/illustrations/scf-medical-bill-eob-20260604-03.png",
+          "filename": "scf-medical-bill-eob-20260604-03.png",
+          "suffix": "03",
+          "seed": 202606049005,
+          "prompt": "realistic cash flow protection desk with blank envelopes, calculator, small plain paper stacks, no currency, no printed receipts, no numbers, no text",
+          "prompt_id": "d7a3f2e2-101f-492b-8bd8-94744206d4b5",
+          "raw_output": {
+            "filename": "hermes_batchc_20260604_regen_smartcashflow_03_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1722481,
+          "qa_regenerated": true
+        },
+        {
+          "file": "public/images/illustrations/scf-medical-bill-eob-20260604-04.png",
+          "filename": "scf-medical-bill-eob-20260604-04.png",
+          "suffix": "04",
+          "seed": 202606049006,
+          "prompt": "realistic dispute evidence folder with blank documents turned over, pen, neutral desk, no printed forms, no handwriting, no text, no logos",
+          "prompt_id": "d43fefae-411a-403e-8384-84f73ce9e558",
+          "raw_output": {
+            "filename": "hermes_batchc_20260604_regen_smartcashflow_04_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1276781,
+          "qa_regenerated": true
+        },
+        {
+          "file": "public/images/illustrations/scf-medical-bill-eob-20260604-05.png",
+          "filename": "scf-medical-bill-eob-20260604-05.png",
+          "suffix": "05",
+          "seed": 202606049106,
+          "prompt": "realistic household medical bill planning concept: closed blank envelopes and plain folders beside calculator, papers face down, no forms, no visible text, no numbers, no logos, no money",
+          "prompt_id": "4c2f7016-1d60-4938-9e92-7a50f6ca74cf",
+          "raw_output": {
+            "filename": "hermes_batchc_20260604_regen2_smartcashflow_05_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1690142,
+          "qa_regenerated": true,
+          "qa_regeneration_round": 2
+        }
+      ],
+      "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260604-smartcashflow-contact-sheet.jpg",
+      "visual_qa": "final QA regeneration round 3 applied; final contact sheet recreated."
+    }
+  }
+}
