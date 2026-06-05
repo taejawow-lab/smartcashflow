@@ -1,0 +1,121 @@
+{
+  "site": "smartcashflow",
+  "slug": "job-loss-cash-flow-triage-unemployment-health-coverage-2026",
+  "generated_at": null,
+  "updated_at": "2026-06-05T04:18:41Z",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "dimensions": null,
+  "workflow": "SDXL RealVisXL minimal ComfyUI txt2img workflow",
+  "assets": [
+    {
+      "site": "smartcashflow",
+      "slug": "job-loss-cash-flow-triage-unemployment-health-coverage-2026",
+      "filename": "scf-job-loss-triage-20260605-01.png",
+      "file": "public/images/illustrations/scf-job-loss-triage-20260605-01.png",
+      "alt": "One month bills and cash buffer sorting without readable numbers",
+      "prompt": "realistic table with blank bills face down, colored folders, pen, bank card without numbers, no readable text, no logos",
+      "seed": 202606050317,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "13e959d4-fa78-4a2c-9c0d-87ad0ce5b544",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00017_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1647447
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "job-loss-cash-flow-triage-unemployment-health-coverage-2026",
+      "filename": "scf-job-loss-triage-20260605-02.png",
+      "file": "public/images/illustrations/scf-job-loss-triage-20260605-02.png",
+      "alt": "Unemployment and health coverage decision planning workspace",
+      "prompt": "realistic home desk with laptop blank screen, phone blank screen, plain folder, sticky notes blank, no words, no logos",
+      "seed": 202606050318,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6842e1e3-edca-4707-905c-79de48a3c97b",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00018_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1348367
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "job-loss-cash-flow-triage-unemployment-health-coverage-2026",
+      "filename": "scf-job-loss-triage-20260605-03.png",
+      "file": "public/images/illustrations/scf-job-loss-triage-20260605-03.png",
+      "alt": "Creditor hardship call preparation with evidence folder",
+      "prompt": "realistic desk with headset, plain folder, closed notebook, phone blank screen, no account numbers, no readable text, no logos",
+      "seed": 202606050319,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "89a6e6ad-b484-4729-b733-f4e8b6466de0",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00019_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1205901
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "job-loss-cash-flow-triage-unemployment-health-coverage-2026",
+      "filename": "scf-job-loss-triage-20260605-04.png",
+      "file": "public/images/illustrations/scf-job-loss-triage-20260605-04.png",
+      "alt": "Weekly cash runway review with family calendar hidden",
+      "prompt": "realistic tidy dining table budget review with closed blank planner, plain envelopes, calculator turned away, pen, water glass, no food clutter, no numbers, no readable text, no logos",
+      "seed": 202606050405,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "replacement": true,
+      "prompt_id": "5a62d226-d56d-4a0f-b4f1-276e586b8184",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00025_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1671683
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "job-loss-cash-flow-triage-unemployment-health-coverage-2026",
+      "filename": "scf-job-loss-triage-20260605-hero.png",
+      "file": "public/images/illustrations/scf-job-loss-triage-20260605-hero.png",
+      "alt": "Job loss cash flow triage table with household budget tools",
+      "prompt": "realistic calm kitchen table with plain blank envelopes, closed laptop, simple calculator turned face down, pen, coffee, tidy budget workspace, no numbers, no readable text, no logos",
+      "seed": 202606050404,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "replacement": true,
+      "prompt_id": "11d12bd5-2d75-42eb-b0d7-4f83c7098db7",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00024_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1628561
+    }
+  ],
+  "visual_qa": "Final contact sheet regenerated after replacing rejected logo/screen/wire/finance clutter images and an extra security screen image; all 20 published PNGs retained at 1536x864 with no readable text-heavy content.",
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260605-gti13-contact-sheet-final.jpg"
+}
