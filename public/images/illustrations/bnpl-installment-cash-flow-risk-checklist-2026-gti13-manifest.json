@@ -1,0 +1,129 @@
+{
+  "batch": "C",
+  "date": "2026-06-06",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, UI screenshot, readable screen text, fake app screen, fake warning label, QR code, barcode, credential, medical label, prescription label, financial statement text, distorted interface, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock image, handwriting, calendar grid, unsafe animal handling, exposed wiring"
+  },
+  "endpoint": "[REDACTED_INTERNAL_GTI13_ENDPOINT]",
+  "slug": "bnpl-installment-cash-flow-risk-checklist-2026",
+  "site": "smartcashflow",
+  "visual_qa": "Initial contact sheet inspected; petwellhub hero and smartcashflow hero/support image were regenerated; final accepted published set contains 20 GTI13 raster PNGs, 5 per site.",
+  "assets": [
+    {
+      "site": "smartcashflow",
+      "slug": "bnpl-installment-cash-flow-risk-checklist-2026",
+      "filename": "scf-bnpl-cashflow-20260606-hero.png",
+      "file": "public/images/illustrations/scf-bnpl-cashflow-20260606-hero.png",
+      "alt": "Buy now pay later cash-flow planning desk with neutral payment props",
+      "prompt": "premium realistic editorial photo of a clean wooden table with plain sealed envelopes, blank phone screen face up, unlabeled shopping bag, closed blank notebook, simple pen, no calculator, no keyboard, no laptop, no bank card, no currency, no receipts, no printed paper, no readable text, no numbers, no logos",
+      "seed": 202606060499,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3bf3e189-a30f-423c-bb7c-d84c830a00b4",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00024_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1811435,
+      "reason": "Final QA replacement to remove calculator/numbers"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "bnpl-installment-cash-flow-risk-checklist-2026",
+      "filename": "scf-bnpl-cashflow-20260606-01.png",
+      "file": "public/images/illustrations/scf-bnpl-cashflow-20260606-01.png",
+      "alt": "Installment due-date review without visible account numbers",
+      "prompt": "realistic kitchen table with blank calendar page turned away, colored folders, phone blank screen, no numbers, no words, no logos",
+      "seed": 202606060317,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "55925ff9-91c6-48a6-b56e-4b84efdfc7b3",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00017_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1395167
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "bnpl-installment-cash-flow-risk-checklist-2026",
+      "filename": "scf-bnpl-cashflow-20260606-02.png",
+      "file": "public/images/illustrations/scf-bnpl-cashflow-20260606-02.png",
+      "alt": "Cash buffer decision setup before using installment payments",
+      "prompt": "realistic desk with emergency cash envelope closed, blank card without numbers, laptop blank screen, no readable text",
+      "seed": 202606060318,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "80a0156d-a54d-4eb5-9794-1560d21cc9e3",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00018_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1584104
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "bnpl-installment-cash-flow-risk-checklist-2026",
+      "filename": "scf-bnpl-cashflow-20260606-03.png",
+      "file": "public/images/illustrations/scf-bnpl-cashflow-20260606-03.png",
+      "alt": "Return and dispute evidence folder for a purchase",
+      "prompt": "realistic tabletop with plain receipt folded face down, package box without labels, folder, phone blank screen, no text",
+      "seed": 202606060319,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3c929fbb-b8cc-4f0e-b5db-040247ae7689",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00019_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1784562
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "bnpl-installment-cash-flow-risk-checklist-2026",
+      "filename": "scf-bnpl-cashflow-20260606-04.png",
+      "file": "public/images/illustrations/scf-bnpl-cashflow-20260606-04.png",
+      "alt": "Weekly cash-flow reset after several small purchases",
+      "prompt": "realistic evening budgeting scene with plain envelopes, unlabeled shopping bag, blank notebook closed, pen, soft lamp, no calculator, no card, no receipts, no numbers, no readable text, no logos",
+      "seed": 202606060393,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "QA replacement for readable labels/numbers or calculator props",
+      "prompt_id": "094e21c4-973a-40e7-8d50-d84372b745e0",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00023_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1431845
+    }
+  ]
+}
