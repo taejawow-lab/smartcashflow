@@ -1,0 +1,140 @@
+{
+  "date": "2026-06-07",
+  "batch": "C",
+  "host": "gti13-direct",
+  "endpoint": "http://192.168.50.29:8188",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "final_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260607-final2-contact-sheet.jpg",
+  "visual_qa": "Initial contact sheet rejected 6 images for UI/text/topic mismatch; those files were regenerated and final contact sheet written.",
+  "site": "smartcashflow",
+  "assets": [
+    {
+      "site": "smartcashflow",
+      "slug": "auto-insurance-deductible-emergency-fund-plan-2026",
+      "file": "public/images/illustrations/scf-auto-deductible-20260607-hero.png",
+      "filename": "scf-auto-deductible-20260607-hero.png",
+      "alt": "Auto insurance deductible planning desk",
+      "prompt": "realistic household car expense planning desk with blank insurance papers keys calculator no logos no text",
+      "seed": 202606070716,
+      "prompt_id": "18979fe5-80de-48e3-9021-38dbca9d063a",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1667316,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00016_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "auto-insurance-deductible-emergency-fund-plan-2026",
+      "file": "public/images/illustrations/scf-auto-deductible-20260607-01.png",
+      "filename": "scf-auto-deductible-20260607-01.png",
+      "alt": "Parked car cash flow planning",
+      "prompt": "realistic parked car driveway finance planning scene with no license plate text calm daylight",
+      "seed": 202606070717,
+      "prompt_id": "b723d341-afb7-4fea-b027-6399bd471d2c",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2239093,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00017_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "auto-insurance-deductible-emergency-fund-plan-2026",
+      "file": "public/images/illustrations/scf-auto-deductible-20260607-02.png",
+      "filename": "scf-auto-deductible-20260607-02.png",
+      "alt": "Budgeting for car repair",
+      "prompt": "realistic family budgeting for car repair with blank envelopes and calculator no readable numbers",
+      "seed": 202606070718,
+      "prompt_id": "6cfc28ce-2eb7-4267-a3a9-edab37b87d4a",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1778497,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00018_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "auto-insurance-deductible-emergency-fund-plan-2026",
+      "file": "public/images/illustrations/scf-auto-deductible-20260607-03.png",
+      "filename": "scf-auto-deductible-20260607-03.png",
+      "alt": "Insurance claim folder",
+      "prompt": "auto insurance claim preparation as closed blank kraft folder with car keys and pen on plain desk, no paper sheet visible, no forms, no readable text, no labels, no logos",
+      "seed": 202606071111,
+      "prompt_id": "51080031-3398-4e92-8950-6efe268bf1d9",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1780069,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_regen_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regen_reason": "second visual QA rejected prior fake form text"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "auto-insurance-deductible-emergency-fund-plan-2026",
+      "file": "public/images/illustrations/scf-auto-deductible-20260607-04.png",
+      "filename": "scf-auto-deductible-20260607-04.png",
+      "alt": "Emergency fund and car key",
+      "prompt": "emergency fund concept with plain unlabeled glass jar, coins, car key, toy car, no words on jar, no writing, no labels",
+      "seed": 202606071006,
+      "prompt_id": "77f5b38a-10d8-473c-bc71-03503c0c0366",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1370596,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_regen_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regen_reason": "visual QA rejected prior image for UI/readable text/topic mismatch"
+    }
+  ]
+}
