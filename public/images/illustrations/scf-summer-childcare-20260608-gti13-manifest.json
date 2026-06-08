@@ -1,0 +1,94 @@
+{
+  "site": "smartcashflow",
+  "slug": "summer-camp-childcare-budget-tax-credit-plan-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/scf-summer-childcare-20260608-hero.png",
+      "seed": 880611000,
+      "prompt": "family summer childcare budget planning table with blank papers",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-summer-childcare-20260608-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-summer-childcare-20260608-01.png",
+      "seed": 880611001,
+      "prompt": "parent calendar budgeting desk with blank calendar",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-summer-childcare-20260608-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-summer-childcare-20260608-02.png",
+      "seed": 880611002,
+      "prompt": "childcare receipts and calculator with blank display",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-summer-childcare-20260608-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-summer-childcare-20260608-03.png",
+      "seed": 880611003,
+      "prompt": "weekly cash flow envelope system blank envelopes",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-summer-childcare-20260608-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-summer-childcare-20260608-04.png",
+      "seed": 880611004,
+      "prompt": "parent using blank spreadsheet screen for childcare payment tracker",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-summer-childcare-20260608-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-summer-childcare-20260608-05.png",
+      "seed": 880611005,
+      "prompt": "summer camp pickup planning with child backpack no readable signs",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-summer-childcare-20260608-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/scf-summer-childcare-20260608-contact-sheet.jpg",
+  "visual_qa": "pending_contact_sheet_review"
+}
