@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-09",
+  "site": "smartcashflow",
+  "slug": "subscription-price-increase-audit-cancel-retain-plan-2026",
+  "host": "gti13",
+  "endpoint_redacted": "direct ComfyUI endpoint verified by gate",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, handwriting, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, medication label text, financial statement text, login screen, forms, spreadsheets, calculator numbers, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin",
+    "steps": 26,
+    "cfg": 5.4,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "assets": [
+    {
+      "filename": "scf-subscription-audit-20260609-hero.png",
+      "path": "public/images/illustrations/scf-subscription-audit-20260609-hero.png",
+      "seed": 202606091330,
+      "prompt": "subscription audit desk with closed notebook, plain envelopes, blank sticky notes, laptop closed, no calculator, no receipts, no readable text no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.2,
+      "steps": 28,
+      "prompt_id": "471db5c4-e9a1-4090-95a4-3b0b6fa2cff5",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_regen_smartcashflow_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1559116,
+      "status": "ok"
+    },
+    {
+      "filename": "scf-subscription-audit-20260609-01.png",
+      "path": "public/images/illustrations/scf-subscription-audit-20260609-01.png",
+      "seed": 202606090331,
+      "prompt": "subscription sorting tabletop with colored blank cards streaming remote face down and closed laptop no writing no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "3c4c9c61-3b9e-43d5-84b7-e88984266679",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_smartcashflow_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1736832,
+      "status": "ok"
+    },
+    {
+      "filename": "scf-subscription-audit-20260609-02.png",
+      "path": "public/images/illustrations/scf-subscription-audit-20260609-02.png",
+      "seed": 202606091332,
+      "prompt": "cancellation timing planning scene with plain blank paper stack, pen, phone face down, no calendar grid, no dates, no numbers, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.2,
+      "steps": 28,
+      "prompt_id": "957c8fcc-3e62-4dc7-811d-add8dc5187f2",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_regen_smartcashflow_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1526330,
+      "status": "ok"
+    },
+    {
+      "filename": "scf-subscription-audit-20260609-03.png",
+      "path": "public/images/illustrations/scf-subscription-audit-20260609-03.png",
+      "seed": 202606091333,
+      "prompt": "monthly cash flow review with sealed plain envelopes, closed notebook, laptop closed, no calculator, no numbers, no readable labels",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.2,
+      "steps": 28,
+      "prompt_id": "fcf02daf-9c22-423c-8a58-bf077c86f7ff",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_regen_smartcashflow_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1598760,
+      "status": "ok"
+    },
+    {
+      "filename": "scf-subscription-audit-20260609-04.png",
+      "path": "public/images/illustrations/scf-subscription-audit-20260609-04.png",
+      "seed": 202606090334,
+      "prompt": "retention offer decision desk with laptop blank screen headphones coffee and blank comparison cards no UI text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "aeff4d48-b66d-4f76-99f7-b76a852cc907",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_smartcashflow_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1523530,
+      "status": "ok"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/smartcashflow/reports/batch-c-20260609-smartcashflow-contact-sheet-v2.jpg",
+  "visual_qa": "v2 contact sheet after regenerating QA-rejected screen/calculator/calendar-like images"
+}
