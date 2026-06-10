@@ -1,0 +1,93 @@
+{
+  "site": "smartcashflow",
+  "slug": "grocery-price-spike-meal-plan-sinking-fund-2026",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI redacted in final",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "date": "2026-06-10",
+  "assets": [
+    {
+      "filename": "scf-grocery-sinking-20260610-hero.png",
+      "render_url": "/images/illustrations/scf-grocery-sinking-20260610-hero.png",
+      "prompt": "household grocery budget planning table with produce pantry staples and blank notebook no text",
+      "seed": 202606100600,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4ec0923b-8a9c-491b-b7b5-0d117550b3d5",
+      "bytes": 1696150,
+      "comfy_output_filename": "scf-grocery-sinking-20260610_00001_.png"
+    },
+    {
+      "filename": "scf-grocery-sinking-20260610-01.png",
+      "render_url": "/images/illustrations/scf-grocery-sinking-20260610-01.png",
+      "prompt": "pantry buffer shelf with plain jars cans turned away no labels no words",
+      "seed": 202606100601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9d3aa94d-892a-4e12-9322-e794654cd14f",
+      "bytes": 1633258,
+      "comfy_output_filename": "scf-grocery-sinking-20260610_00002_.png"
+    },
+    {
+      "filename": "scf-grocery-sinking-20260610-02.png",
+      "render_url": "/images/illustrations/scf-grocery-sinking-20260610-02.png",
+      "prompt": "meal prep ingredients arranged safely with cooked grains vegetables separated no raw meat",
+      "seed": 202606100602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "abb8cb58-2efe-4c80-aa89-5acb4d9a2a35",
+      "bytes": 2265726,
+      "comfy_output_filename": "scf-grocery-sinking-20260610_00003_.png"
+    },
+    {
+      "filename": "scf-grocery-sinking-20260610-03.png",
+      "render_url": "/images/illustrations/scf-grocery-sinking-20260610-03.png",
+      "prompt": "grocery receipt review with folded blank receipt calculator turned away no numbers",
+      "seed": 202606100603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "84b337b9-a473-44d1-898f-63c27df5bcc1",
+      "bytes": 1865287,
+      "comfy_output_filename": "scf-grocery-sinking-20260610_00004_.png"
+    },
+    {
+      "filename": "scf-grocery-sinking-20260610-04.png",
+      "render_url": "/images/illustrations/scf-grocery-sinking-20260610-04.png",
+      "prompt": "family meal anchor planning with blank cards and simple ingredients no readable text",
+      "seed": 202606100604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cecbc138-bcdb-4a8c-9bc3-5a5fa438962a",
+      "bytes": 1816751,
+      "comfy_output_filename": "scf-grocery-sinking-20260610_00005_.png"
+    },
+    {
+      "filename": "scf-grocery-sinking-20260610-05.png",
+      "render_url": "/images/illustrations/scf-grocery-sinking-20260610-05.png",
+      "prompt": "freezer and pantry rotation scene with unlabeled containers and clean kitchen no writing",
+      "seed": 202606100605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a5350e85-05b6-43f6-a4f9-d86b663803af",
+      "bytes": 1484712,
+      "comfy_output_filename": "scf-grocery-sinking-20260610_00006_.png"
+    }
+  ],
+  "negative_prompt": "text words letters numbers watermark logo brand name readable labels screen text fake user interface QR code barcode credentials official forms receipts medical labels financial statements distorted hands deformed anatomy unsafe scene exposed wiring blurry low resolution generic stock art placeholder cartoon"
+}
