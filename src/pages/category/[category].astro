@@ -2,70 +2,10 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-
-export async function getStaticPaths() {
-  const posts = (await getCollection('posts')).filter((p) => !p.data.draft);
-  const cats = [...new Set(posts.map((p) => p.data.category).filter(Boolean))];
-  return cats.map((cat) => {
-    const slug = cat.toLowerCase().trim().replace(/\s+/g, '-');
-    const catPosts = posts
-      .filter((p) => p.data.category === cat)
-      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-    return {
-      params: { category: slug },
-      props: { category: cat, posts: catPosts },
-    };
-  });
-}
-
-const { category, posts } = Astro.props;
-const siteName = import.meta.env.PUBLIC_SITE_NAME || '';
-const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
-const labels = {
-  archive: lang === 'ko' ? '카테고리' : lang === 'ja' ? 'カテゴリー' : 'Category',
-  articles: lang === 'ko' ? '글' : lang === 'ja' ? '記事' : 'articles',
-  desc: lang === 'ko' ? `${category} 카테고리의 ${posts.length}개 글` : `Every ${category} article on ${siteName}`,
-};
+export async function getStaticPaths(){const slugify=(s:string)=>s.toLowerCase().trim().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');const posts=(await getCollection('posts')).filter(p=>!p.data.draft);const cats=[...new Set(posts.map(p=>p.data.category).filter(Boolean))];const base=cats.map(cat=>({params:{category:slugify(cat)},props:{category:cat,posts:posts.filter(p=>p.data.category===cat).sort((a,b)=>b.data.pubDate.valueOf()-a.data.pubDate.valueOf())}}));const canon=[['personal-finance','Personal Finance'],['emergency-funds','Emergency Funds'],['insurance','Insurance'],['cash-flow','Cash Flow'],['retirement','Retirement']];
+const existing=new Set(base.map(x=>x.params.category));
+for (const [slug,name] of canon){ if(!existing.has(slug)){ const words=slug.split('-'); const matches=posts.filter(p=>{const h=[p.data.category,p.data.title,p.data.description,...(p.data.tags||[])].join(' ').toLowerCase(); return words.every(w=>h.includes(w)) || h.includes(name.toLowerCase());}).sort((a,b)=>b.data.pubDate.valueOf()-a.data.pubDate.valueOf()); base.push({params:{category:slug},props:{category:name,posts:matches}}); }}
+return base;}
+const {category,posts}=Astro.props; const lead=posts[0];
 ---
-
-<BaseLayout title={`${category} — ${labels.archive}`} description={labels.desc}>
-  <section class="container mx-auto px-6 md:px-10 py-16 md:py-24">
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-12 md:mb-16 border-b border-border pb-12">
-      <div class="col-span-12 md:col-span-4">
-        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-3">¶ {labels.archive}</p>
-        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-[-0.02em] capitalize" style="font-family: var(--font-display);">
-          {category}
-        </h1>
-        <p class="text-sm uppercase tracking-[0.15em] font-mono text-foreground/60 mt-4">
-          {posts.length} {labels.articles}
-        </p>
-      </div>
-      <div class="col-span-12 md:col-span-7 md:col-start-6 md:pt-4">
-        <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-xl">
-          {labels.desc}
-        </p>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 md:gap-x-8 gap-y-12">
-      {posts.map((post, i) => (
-        <ArticleCard
-          title={post.data.title}
-          description={post.data.description}
-          href={`/posts/${post.slug}`}
-          image={post.data.heroImage}
-          category={post.data.category}
-          pubDate={post.data.pubDate}
-          variant="standard"
-          index={i}
-        />
-      ))}
-    </div>
-
-    <div class="mt-16 pt-12 border-t border-border">
-      <a href="/posts/" class="inline-flex items-center gap-3 text-sm uppercase tracking-[0.15em] font-mono hover:text-accent transition-colors">
-        ← {lang === 'ko' ? '전체 글 보기' : lang === 'ja' ? '全記事' : 'View all articles'}
-      </a>
-    </div>
-  </section>
-</BaseLayout>
+<BaseLayout title={`${category} Guides`} description={`Every ${category} guide on Smartcashflow.`}><section class="hero-dark"><div class="container" style="position:relative;padding-block:clamp(46px,7vw,88px)"><div class="eyebrow eyebrow--cream" style="margin-bottom:16px">Learning path</div><h1 class="display" style="color:var(--paper);font-size:clamp(2.2rem,5vw,3.6rem)">{category}</h1><p class="lede" style="color:rgba(244,240,230,.78);max-width:58ch;margin-top:14px">A curated track for one pillar of a steady financial life.</p></div></section><section class="container section--tight">{lead&&<div style="margin-bottom:34px"><div class="eyebrow" style="margin-bottom:12px">Start here</div><ArticleCard title={lead.data.title} description={lead.data.description} href={`/posts/${lead.slug}/`} image={lead.data.heroImage} category={lead.data.category} pubDate={lead.data.pubDate} variant="horizontal" slug={lead.slug}/></div>}<div class="cards-3">{posts.slice(1).map(p=><ArticleCard title={p.data.title} description={p.data.description} href={`/posts/${p.slug}/`} image={p.data.heroImage} category={p.data.category} pubDate={p.data.pubDate} slug={p.slug}/>)}</div></section></BaseLayout>
