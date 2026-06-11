@@ -1,0 +1,225 @@
+{
+  "generated_at": "2026-06-11T04:14:39Z",
+  "host": "gti13",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 28,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable label, UI screenshot, fake app screen, QR code, barcode, credential, medical label, payment card, bank statement, tax form, receipt text, warning sign, distorted hands, bad anatomy, unsafe scene, exposed wiring, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, child face closeup"
+  },
+  "assets": [
+    {
+      "site": "smartcashflow",
+      "slug": "utility-bill-equal-payment-budget-review-plan-2026",
+      "filename": "scf-utility-equal-pay-20260611-01.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-01.png",
+      "prompt": "household reviewing seasonal energy use with blank chart cards no writing no logos",
+      "seed": 202606110020,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e7d23fae-c619-4f3e-8d49-333a194d7386",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1649687,
+      "status": "ok"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "utility-bill-equal-payment-budget-review-plan-2026",
+      "filename": "scf-utility-equal-pay-20260611-02.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-02.png",
+      "prompt": "thermostat on wall with unreadable blank display and cozy living room no numbers no brand",
+      "seed": 202606110021,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c7dc6941-af27-455b-9e68-c84508f6f667",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1595325,
+      "status": "ok"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "utility-bill-equal-payment-budget-review-plan-2026",
+      "filename": "scf-utility-equal-pay-20260611-03.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-03.png",
+      "prompt": "sealed utility assistance folder and phone face down on table no readable documents no logos",
+      "seed": 202606110022,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0cee791c-7436-4f9f-b470-753c6b401861",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611_00004_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1631940,
+      "status": "ok"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "utility-bill-equal-payment-budget-review-plan-2026",
+      "filename": "scf-utility-equal-pay-20260611-04.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-04.png",
+      "prompt": "monthly cash flow buffer jars and blank paper calendar with no numbers no handwriting",
+      "seed": 202606110023,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0ed51c64-f8b3-45a1-8d2c-caa45670f982",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1302585,
+      "status": "ok"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "utility-bill-equal-payment-budget-review-plan-2026",
+      "filename": "scf-utility-equal-pay-20260611-05.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-05.png",
+      "prompt": "family finance review table with laptop dark screen envelopes turned away no text no bank cards",
+      "seed": 202606110024,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1b1ad223-776a-485e-9bdd-3a74a490da71",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1419666,
+      "status": "ok"
+    }
+  ],
+  "qa_replacements": [
+    {
+      "site": "smartcashflow",
+      "filename": "scf-utility-equal-pay-20260611-hero.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-hero.png",
+      "prompt": "utility budget review desk with sealed blank envelopes, plain notebook closed, pen, soft lamp, no calculator, no numbers, no money, no bills, no readable text",
+      "seed": 202606119005,
+      "prompt_id": "5564be0c-96c1-48eb-bac7-8b4760125eaa",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1578899,
+      "status": "ok",
+      "reason": "visual QA replacement for text/UI/labels/numbers"
+    },
+    {
+      "site": "smartcashflow",
+      "filename": "scf-utility-equal-pay-20260611-01.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-01.png",
+      "prompt": "seasonal household energy budget planning with blank colored cards and sealed envelopes on table, no charts, no labels, no words, no numbers, no calculator",
+      "seed": 202606119006,
+      "prompt_id": "9e9428e9-1495-4713-a7f8-70744fea6030",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1754059,
+      "status": "ok",
+      "reason": "visual QA replacement for text/UI/labels/numbers"
+    },
+    {
+      "site": "smartcashflow",
+      "filename": "scf-utility-equal-pay-20260611-02.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-02.png",
+      "prompt": "cozy living room with plain wall and simple analog-free lamp and window, no thermostat, no display, no numbers, utility comfort scene",
+      "seed": 202606119007,
+      "prompt_id": "0baf5266-d05a-47ae-ad05-8aa4c7b94452",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1696288,
+      "status": "ok",
+      "reason": "visual QA replacement for text/UI/labels/numbers"
+    },
+    {
+      "site": "smartcashflow",
+      "filename": "scf-utility-equal-pay-20260611-03.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-03.png",
+      "prompt": "sealed utility assistance folder and phone face down on table with blank papers turned over, no readable documents, no forms, no logos",
+      "seed": 202606119008,
+      "prompt_id": "52c69457-551f-4a28-a365-557109c1fed5",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1773154,
+      "status": "ok",
+      "reason": "visual QA replacement for text/UI/labels/numbers"
+    },
+    {
+      "site": "smartcashflow",
+      "filename": "scf-utility-equal-pay-20260611-04.png",
+      "path": "public/images/illustrations/scf-utility-equal-pay-20260611-04.png",
+      "prompt": "monthly cash flow buffer using plain unlabeled jars with colored tokens and blank index cards, no calendar, no money, no numbers, no handwriting",
+      "seed": 202606119009,
+      "prompt_id": "60e9c713-6ad6-47a5-87f4-d528dd5923df",
+      "comfy_output": {
+        "filename": "scf-utility-equal-pay-20260611-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1825078,
+      "status": "ok",
+      "reason": "visual QA replacement for text/UI/labels/numbers"
+    }
+  ],
+  "final_contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch_c_20260611_report/batch-c-20260611-contact-sheet-final.jpg",
+  "qa_excluded": [
+    {
+      "filename": "scf-utility-equal-pay-20260611-hero.png",
+      "reason": "Final visual QA rejected for screen/text/calculator-style artifact; not referenced or staged."
+    }
+  ]
+}
