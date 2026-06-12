@@ -1,0 +1,193 @@
+{
+  "site": "smartcashflow",
+  "slug": "insurance-premium-renewal-shopping-cash-flow-checklist-2026",
+  "generated_at": "2026-06-12T04:21:26Z",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI endpoint redacted in user reports",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermark, signature, UI screenshot, app screen, login screen, QR code, barcode, fake labels, documents with text, receipts, forms, distorted hands, bad anatomy, extra fingers, child face closeup, unsafe scene, low detail, blurry, cartoon, generic stock art, placeholder",
+  "assets": [
+    {
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-hero.png",
+      "seed": 202606120300,
+      "prompt": "insurance renewal planning desk with blank envelopes, car keys, house key, calculator dark display, no text no numbers",
+      "prompt_id": "c0619d23-ea1d-4a06-b79d-c6e5d5104177",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1604190
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-01.png",
+      "seed": 202606120301,
+      "prompt": "household comparing premium timing with blank calendar cards and plain folders, no readable text",
+      "prompt_id": "d706bb01-dc2f-4a52-bbb1-eafcbad78e62",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1555578
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-02.png",
+      "seed": 202606120302,
+      "prompt": "deductible reserve setup with neutral jar, blank envelopes, keys, no currency no labels",
+      "prompt_id": "b8b62497-2dc7-4de7-8c25-9e6536f85450",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1769707
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-03.png",
+      "seed": 202606120303,
+      "prompt": "phone call preparation for insurance agent with dark phone screen and blank notebook, no logos",
+      "prompt_id": "43d05447-5ac9-4e88-ada9-fd56fb2d3c38",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1378086
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-04.png",
+      "seed": 202606120304,
+      "prompt": "policy comparison table represented by blank cards and colored tabs, no words no numbers",
+      "prompt_id": "97844520-2187-4390-a33f-a9e1672f5b13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1496000
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-05.png",
+      "seed": 202606120305,
+      "prompt": "cash flow review scene with plain folders, closed laptop, blank paper, no financial forms",
+      "prompt_id": "6149537a-a68c-4ea0-8cee-8485c211098d",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1507878
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/scf-insurance-renewal-20260612-contact-sheet-final3.jpg",
+  "visual_qa": "final3 contact sheet regenerated after third QA replacements; parent run visually inspected final3 sheet",
+  "qa_replacements": [
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-hero.png",
+      "seed": 202606129006,
+      "prompt": "insurance renewal planning desk with closed laptop, car key, house key, blank envelopes, no calculator no documents with text no numbers",
+      "prompt_id": "b1f50d67-3b1d-4095-931c-2ba12dcb75bb",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-01.png",
+      "seed": 202606129007,
+      "prompt": "premium payment timing plan with blank colored cards and closed notebook, no calendar no numbers no words no forms",
+      "prompt_id": "397208fb-fc5c-4beb-bb8e-ad2cd363ccb0",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-02.png",
+      "seed": 202606129008,
+      "prompt": "deductible reserve planning scene with plain sealed envelopes, keys, neutral jar with no label, no coins no currency no text",
+      "prompt_id": "95db0ff5-3719-48bc-b426-baea1806e5fc",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-03.png",
+      "seed": 202606129009,
+      "prompt": "insurance agent phone call prep with dark blank phone screen, closed notebook, pen, no calculator no forms no text",
+      "prompt_id": "9c143815-0b08-4744-8866-2d48b69b849d",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-02.png",
+      "seed": 202606129502,
+      "prompt": "deductible reserve planning still life with plain sealed envelopes, car key, house key, empty unlabeled jar, no coins no cash no currency no text",
+      "prompt_id": "e8c90b2d-3822-44d4-9d77-1c4f5111ed46",
+      "reason": "second visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-03.png",
+      "seed": 202606129503,
+      "prompt": "insurance agent call preparation with dark blank phone screen, closed notebook, pen, plain envelopes, no calculator no numbers no forms no text",
+      "prompt_id": "4875e28a-a6e2-4922-98f3-86aa574a78f7",
+      "reason": "second visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-02.png",
+      "seed": 202606129802,
+      "prompt": "deductible reserve planning still life with closed plain folder, car key, house key, blank wooden blocks, empty unlabeled ceramic cup, no jar no coins no cash no text",
+      "prompt_id": "70d43d2b-6937-40af-b930-e04ebe9296b2",
+      "reason": "third visual QA replacement"
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-insurance-renewal-20260612-03.png",
+      "seed": 202606129803,
+      "prompt": "insurance renewal call preparation still life with headset, closed blank notebook, pen, sealed envelopes, no phone no calculator no forms no text no numbers",
+      "prompt_id": "7850229f-d51d-4e9d-9080-1b7424a9aaf8",
+      "reason": "third visual QA replacement"
+    }
+  ]
+}
