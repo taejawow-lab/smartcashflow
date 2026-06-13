@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-06-13T04:15:51Z",
+  "finalized_at": "2026-06-13T04:26:42Z",
+  "site": "smartcashflow",
+  "host": "gti13",
+  "endpoint_redacted": "direct GTI13 ComfyUI endpoint verified by gate",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, credentials, financial document text, medical label, prescription label, distorted hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock image, handwriting, calendar grid, fake warning label"
+  },
+  "assets": [
+    {
+      "site": "smartcashflow",
+      "slug": "hsa-receipt-audit-midyear-cash-flow-plan-2026",
+      "filename": "scf-hsa-receipt-audit-20260613-hero.png",
+      "git_path": "public/images/illustrations/scf-hsa-receipt-audit-20260613-hero.png",
+      "alt": "HSA receipt audit desk without private details",
+      "prompt": "realistic personal finance desk with blank medical folder, sealed envelopes, laptop closed, no bills text no numbers",
+      "seed": 202606130319,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9de6773d-525e-42f6-8682-53ee81d3ff14",
+      "status": "published_candidate_final",
+      "bytes": 1406663
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "hsa-receipt-audit-midyear-cash-flow-plan-2026",
+      "filename": "scf-hsa-receipt-audit-20260613-01.png",
+      "git_path": "public/images/illustrations/scf-hsa-receipt-audit-20260613-01.png",
+      "alt": "Medical receipts organized face down",
+      "prompt": "editorial still life of closed plain folders, sealed blank envelopes, storage box, colored tabs with no writing, no loose papers, no receipts, no forms, no calculator, no screens, no text",
+      "seed": 202606139102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "aececf35-7928-4926-bcc3-d93bc5c4e30f",
+      "status": "published_candidate_final",
+      "bytes": 1285528,
+      "qa_note": "final2 regenerated to remove fake form/receipt risk"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "hsa-receipt-audit-midyear-cash-flow-plan-2026",
+      "filename": "scf-hsa-receipt-audit-20260613-02.png",
+      "git_path": "public/images/illustrations/scf-hsa-receipt-audit-20260613-02.png",
+      "alt": "Healthcare expense folder organization",
+      "prompt": "healthcare expense folder organization with closed laptop, phone face down dark, plain folders and blank index cards, no screens, no forms, no receipts, no text",
+      "seed": 202606139004,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9d22fe2f-6c1b-4abd-abfb-eeb5722c09c3",
+      "status": "published_candidate_final",
+      "bytes": 1568953,
+      "qa_note": "regenerated to remove phone UI/form risk"
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "hsa-receipt-audit-midyear-cash-flow-plan-2026",
+      "filename": "scf-hsa-receipt-audit-20260613-03.png",
+      "git_path": "public/images/illustrations/scf-hsa-receipt-audit-20260613-03.png",
+      "alt": "Family cash-flow review for medical expenses",
+      "prompt": "realistic family cash flow review desk with blank cards and closed laptop, no financial statements no numbers",
+      "seed": 202606130322,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a1d62c79-ca63-4ea8-95f8-750de0bb6a3c",
+      "status": "published_candidate_final",
+      "bytes": 1349442
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "hsa-receipt-audit-midyear-cash-flow-plan-2026",
+      "filename": "scf-hsa-receipt-audit-20260613-04.png",
+      "git_path": "public/images/illustrations/scf-hsa-receipt-audit-20260613-04.png",
+      "alt": "Secure storage for HSA records",
+      "prompt": "realistic secure document storage box with medical folder and blank index cards, no readable words",
+      "seed": 202606130323,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "fe2a9103-ae9a-4254-9d80-f4774eb864fb",
+      "status": "published_candidate_final",
+      "bytes": 1659578
+    },
+    {
+      "site": "smartcashflow",
+      "slug": "hsa-receipt-audit-midyear-cash-flow-plan-2026",
+      "filename": "scf-hsa-receipt-audit-20260613-05.png",
+      "git_path": "public/images/illustrations/scf-hsa-receipt-audit-20260613-05.png",
+      "alt": "Midyear HSA budget review",
+      "prompt": "realistic midyear budget review still life with plain envelopes and pen, no currency no forms no text",
+      "seed": 202606130324,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "51dbce4e-ada8-4f43-b65b-492346d4dbe9",
+      "status": "published_candidate_final",
+      "bytes": 1727314
+    }
+  ],
+  "visual_qa": "Final contact sheets inspected; rejected screen/form/UI/text-risk assets were regenerated before commit. Published raster count: 6."
+}
