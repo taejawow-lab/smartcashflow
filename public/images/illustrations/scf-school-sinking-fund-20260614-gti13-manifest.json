@@ -1,0 +1,203 @@
+{
+  "site": "smartcashflow",
+  "generated_at": "2026-06-14T04:19:58Z",
+  "date": "2026-06-14",
+  "batch": "C",
+  "endpoint": "GTI13 direct ComfyUI (redacted in user report)",
+  "host": "gti13-direct",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "system_stats_ok": true,
+  "queue_before": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 28,
+    "cfg": 7,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, readable labels, logo, watermark, signature, QR code, barcode, UI screenshot, app screen, credentials, forms, receipts, medical label, financial document, fake warning label, brand mark, distorted hands, bad anatomy, child face closeup, unsafe scene, low resolution, generic stock art, placeholder"
+  },
+  "sites": {
+    "smartcashflow": {
+      "site": "smartcashflow",
+      "slug": "back-to-school-supply-sinking-fund-cash-flow-plan-2026",
+      "title": "Back-to-School Supply Sinking Fund Cash Flow Plan for 2026",
+      "article": "src/content/posts/back-to-school-supply-sinking-fund-cash-flow-plan-2026.mdx",
+      "source_validation": [
+        {
+          "url": "https://consumer.gov/managing-your-money/making-budget",
+          "ok": false,
+          "error": "<HTTPError 403: 'Forbidden'>"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/blog/budgeting-how-create-budget-and-stick-it/",
+          "ok": false,
+          "error": "TimeoutError('The read operation timed out')"
+        },
+        {
+          "url": "https://consumer.ftc.gov/shopping-and-donating/shopping",
+          "ok": false,
+          "error": "<HTTPError 403: 'Forbidden'>"
+        },
+        {
+          "url": "https://www.irs.gov/taxtopics/tc458",
+          "ok": true,
+          "status": 200,
+          "final": "https://www.irs.gov/taxtopics/tc458"
+        },
+        {
+          "url": "https://www.fns.usda.gov/school-meals",
+          "ok": false,
+          "error": "<HTTPError 403: 'Forbidden'>"
+        },
+        {
+          "url": "https://www.annualcreditreport.com/index.action",
+          "ok": false,
+          "error": "<HTTPError 403: 'Forbidden'>"
+        },
+        {
+          "url": "https://consumer.gov/credit-loans-debt/using-credit",
+          "ok": false,
+          "error": "<HTTPError 403: 'Forbidden'>"
+        },
+        {
+          "url": "https://www.ed.gov/back-to-school",
+          "ok": false,
+          "error": "<HTTPError 403: 'Forbidden'>"
+        }
+      ],
+      "assets": [
+        {
+          "file": "public/images/illustrations/scf-school-sinking-fund-20260614-hero.png",
+          "filename": "scf-school-sinking-fund-20260614-hero.png",
+          "suffix": "hero",
+          "seed": 202606140313,
+          "prompt": "family back-to-school budgeting table with backpack, blank notebooks, plain folders, pencils without labels, closed laptop, no prices no text",
+          "prompt_id": "f95f5d3b-beb8-4166-ab8f-8767bce3bab0",
+          "raw_output": {
+            "filename": "hermes_batchc_20260614_smartcashflow_hero_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1855105
+        },
+        {
+          "file": "public/images/illustrations/scf-school-sinking-fund-20260614-01.png",
+          "filename": "scf-school-sinking-fund-20260614-01.png",
+          "suffix": "01",
+          "seed": 202606140314,
+          "prompt": "sinking fund envelope system with blank envelopes and school supplies, no currency, no numbers, no readable text",
+          "prompt_id": "6ac01e1a-2bd5-496b-ab67-a5cf78ad4012",
+          "raw_output": {
+            "filename": "hermes_batchc_20260614_smartcashflow_01_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1719240
+        },
+        {
+          "file": "public/images/illustrations/scf-school-sinking-fund-20260614-02.png",
+          "filename": "scf-school-sinking-fund-20260614-02.png",
+          "suffix": "02",
+          "seed": 202606140315,
+          "prompt": "school supply inventory at home with backpack, blank checklist card face down, pencils, folders, no brand marks no text",
+          "prompt_id": "78cf3dbb-661c-4a18-a598-cf1602f4636a",
+          "raw_output": {
+            "filename": "hermes_batchc_20260614_smartcashflow_02_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1671561
+        },
+        {
+          "file": "public/images/illustrations/scf-school-sinking-fund-20260614-03.png",
+          "filename": "scf-school-sinking-fund-20260614-03.png",
+          "suffix": "03",
+          "seed": 202606140316,
+          "prompt": "technology and calculator-free school planning scene with closed laptop, dark tablet screen, headphones, plain case, no UI no logos",
+          "prompt_id": "8c7ae797-3c73-4c19-9877-bbe28fdb3ada",
+          "raw_output": {
+            "filename": "hermes_batchc_20260614_smartcashflow_03_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1589086
+        },
+        {
+          "file": "public/images/illustrations/scf-school-sinking-fund-20260614-04.png",
+          "filename": "scf-school-sinking-fund-20260614-04.png",
+          "suffix": "04",
+          "seed": 202606140317,
+          "prompt": "meal and activity fee planning still life with lunchbox, blank calendar turned over, water bottle without logo, no text no numbers",
+          "prompt_id": "691f19b3-cf4e-4434-8344-630b98a7489c",
+          "raw_output": {
+            "filename": "hermes_batchc_20260614_smartcashflow_04_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1494647
+        },
+        {
+          "file": "public/images/illustrations/scf-school-sinking-fund-20260614-05.png",
+          "filename": "scf-school-sinking-fund-20260614-05.png",
+          "suffix": "05",
+          "seed": 202606140318,
+          "prompt": "final school budget review with parent workspace, sealed envelope, blank cards, tidy supplies, no documents text",
+          "prompt_id": "11dd00ac-5129-4eaa-9e86-99c06bce0981",
+          "raw_output": {
+            "filename": "hermes_batchc_20260614_smartcashflow_05_00001_.png",
+            "subfolder": "",
+            "type": "output"
+          },
+          "width": 1536,
+          "height": 864,
+          "bytes": 1795927
+        }
+      ],
+      "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260614-smartcashflow-contact-sheet.jpg",
+      "visual_qa": "contact sheet reviewed; accepted with blank school/budget props, no receipts/forms/currency/readable private documents, topic match",
+      "site_manifest": "public/images/illustrations/scf-school-sinking-fund-20260614-gti13-manifest.json"
+    }
+  }
+}
