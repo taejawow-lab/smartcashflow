@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-15",
+  "site": "smartcashflow",
+  "slug": "property-tax-escrow-shortage-cash-flow-plan-2026",
+  "endpoint_host": "gti13-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/scf-escrow-shortage-20260615-hero.png",
+      "render_url": "/images/illustrations/scf-escrow-shortage-20260615-hero.png",
+      "seed": 90618000,
+      "prompt_id": "75bfb56c-f1b8-44fc-a7ea-4cefc35e5913",
+      "prompt": "home finance planning still life with house keys, closed folder, blank envelopes, plain calendar blocks no numbers, no forms no currency",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "scf-escrow-shortage-20260615-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-escrow-shortage-20260615-01.png",
+      "render_url": "/images/illustrations/scf-escrow-shortage-20260615-01.png",
+      "seed": 90618901,
+      "prompt_id": "e82507f0-3124-4b51-b7b2-81875af34d29",
+      "prompt": "property escrow planning still life with house keys, sealed blank envelope, colored folders, no forms, no document text, no numbers, no logos, no calculator, no money",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "scf-escrow-shortage-20260615-01_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": "2026-06-15 visual QA replacement"
+    },
+    {
+      "file": "public/images/illustrations/scf-escrow-shortage-20260615-02.png",
+      "render_url": "/images/illustrations/scf-escrow-shortage-20260615-02.png",
+      "seed": 90618002,
+      "prompt_id": "33777739-1534-4cc3-b670-e414db9bac14",
+      "prompt": "family budget discussion at kitchen table with blank folders and house key, no documents readable, no screens",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "scf-escrow-shortage-20260615-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-escrow-shortage-20260615-03.png",
+      "render_url": "/images/illustrations/scf-escrow-shortage-20260615-03.png",
+      "seed": 90618003,
+      "prompt_id": "8cf9b822-13ea-4d10-bd2b-453ee7a05326",
+      "prompt": "insurance and tax payment timing metaphor using plain colored folders, blank cards, no numbers, no money",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "scf-escrow-shortage-20260615-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-escrow-shortage-20260615-04.png",
+      "render_url": "/images/illustrations/scf-escrow-shortage-20260615-04.png",
+      "seed": 90618004,
+      "prompt_id": "683c09dd-5990-4e53-bd77-a6231da78466",
+      "prompt": "mortgage servicer call preparation scene with phone face down, closed notebook, blank note cards, no UI no text",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "scf-escrow-shortage-20260615-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/scf-escrow-shortage-20260615-contact-sheet.jpg",
+  "visual_qa": "final: coin-like 05 excluded; article renders five accepted unique GTI13 rasters"
+}
