@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-06-16T04:15:40Z",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI on LAN (redacted in final)",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "steps": 26,
+  "cfg": 5.3,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "negative_prompt": "readable text, letters, words, numbers, logo, watermark, brand marks, QR code, barcode, fake UI, app screen, login screen, payment screen, receipt text, labels, handwriting, calendar grid, distorted hands, deformed animals, unsafe handling, low resolution, blurry, cartoon, placeholder, stock art",
+  "slug": "vacation-rental-fee-cash-flow-checklist-2026",
+  "assets": [
+    {
+      "filename": "scf-vacation-rental-fees-20260616-hero.png",
+      "render_url": "/images/illustrations/scf-vacation-rental-fees-20260616-hero.png",
+      "prompt": "vacation rental budget planning still life with keys, blank envelopes, plain suitcase tag turned away, no text, no money",
+      "seed": 202606160700,
+      "status": "ok",
+      "prompt_id": "454a3342-1617-4d36-8664-3731ad1c994d",
+      "file": "public/images/illustrations/scf-vacation-rental-fees-20260616-hero.png",
+      "bytes": 1713691,
+      "comfy_output": {
+        "filename": "scf-vacation-rental-fees-20260616_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "scf-vacation-rental-fees-20260616-01.png",
+      "render_url": "/images/illustrations/scf-vacation-rental-fees-20260616-01.png",
+      "prompt": "family trip cash flow planning table with blank folders, closed laptop, plain key fob, no receipts, no text",
+      "seed": 202606160701,
+      "status": "ok",
+      "prompt_id": "067c666d-f59a-41ef-897f-21ab15cec91e",
+      "file": "public/images/illustrations/scf-vacation-rental-fees-20260616-01.png",
+      "bytes": 1651346,
+      "comfy_output": {
+        "filename": "scf-vacation-rental-fees-20260616_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "scf-vacation-rental-fees-20260616-02.png",
+      "render_url": "/images/illustrations/scf-vacation-rental-fees-20260616-02.png",
+      "prompt": "rental fee comparison metaphor with stacked blank cards and suitcase, no numbers, no logos, no screens",
+      "seed": 202606160702,
+      "status": "ok",
+      "prompt_id": "c2ccbbd2-1532-4c1e-a57c-2aeb1c9b16cb",
+      "file": "public/images/illustrations/scf-vacation-rental-fees-20260616-02.png",
+      "bytes": 1379009,
+      "comfy_output": {
+        "filename": "scf-vacation-rental-fees-20260616_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "scf-vacation-rental-fees-20260616-03.png",
+      "render_url": "/images/illustrations/scf-vacation-rental-fees-20260616-03.png",
+      "prompt": "refundable deposit tracking scene with house key, sealed envelope, blank calendar-shaped card without dates, no text",
+      "seed": 202606160703,
+      "status": "ok",
+      "prompt_id": "ce5df347-c7b8-4820-bd25-c5a91dad8fe6",
+      "file": "public/images/illustrations/scf-vacation-rental-fees-20260616-03.png",
+      "bytes": 1375168,
+      "comfy_output": {
+        "filename": "scf-vacation-rental-fees-20260616_00004_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "scf-vacation-rental-fees-20260616-04.png",
+      "render_url": "/images/illustrations/scf-vacation-rental-fees-20260616-04.png",
+      "prompt": "travel payment timing plan with plain folders, blank phone dark screen, luggage corner, no card numbers, no text",
+      "seed": 202606160704,
+      "status": "ok",
+      "prompt_id": "aefec29e-ca92-4a64-89e2-5a7b68c36a05",
+      "file": "public/images/illustrations/scf-vacation-rental-fees-20260616-04.png",
+      "bytes": 1448900,
+      "comfy_output": {
+        "filename": "scf-vacation-rental-fees-20260616_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "scf-vacation-rental-fees-20260616-05.png",
+      "render_url": "/images/illustrations/scf-vacation-rental-fees-20260616-05.png",
+      "prompt": "post-stay damage deposit review setup with keys, blank checklist card, clean tabletop, no forms or readable text",
+      "seed": 202606160705,
+      "status": "ok",
+      "prompt_id": "99dec9cb-4020-443d-8178-e33da1fa7893",
+      "file": "public/images/illustrations/scf-vacation-rental-fees-20260616-05.png",
+      "bytes": 1657993,
+      "comfy_output": {
+        "filename": "scf-vacation-rental-fees-20260616_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "final_visual_qa": "PASS after contact-sheet inspection; regenerated/replaced any earlier text/form/photo-label concerns before article integration.",
+  "published_asset_count": 6
+}
