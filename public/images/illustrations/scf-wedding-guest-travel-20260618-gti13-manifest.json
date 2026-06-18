@@ -1,0 +1,145 @@
+{
+  "site": "smartcashflow",
+  "slug": "wedding-guest-travel-budget-cash-flow-plan-2026",
+  "title": "Wedding Guest Travel Budget Cash Flow Plan for 2026",
+  "date": "2026-06-18",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-hero.png",
+      "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-hero.png",
+      "prompt": "realistic wedding guest travel budget planning table with blank cards and closed laptop, no currency no text",
+      "seed": 202606180300,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cf00985d-ea1d-46ea-aaf3-b7bf471197f8",
+      "comfy_output": {
+        "filename": "batch_c_20260618_smartcashflow_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-01.png",
+      "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-01.png",
+      "prompt": "realistic suitcase and plain envelopes for event travel planning, no labels no tickets no documents",
+      "seed": 202606180301,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d9708d25-376c-44d2-9ad5-f91cbd2419f9",
+      "comfy_output": {
+        "filename": "batch_c_20260618_smartcashflow_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-02.png",
+      "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-02.png",
+      "prompt": "realistic family calendar planning scene with blank note cards, no dates no numbers no readable writing",
+      "seed": 202606180302,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "918f05a9-73c4-4814-89b5-3466a64b62c4",
+      "comfy_output": {
+        "filename": "batch_c_20260618_smartcashflow_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-03.png",
+      "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-03.png",
+      "prompt": "realistic travel booking review with dark phone screen and closed folder, no payment UI no brand marks",
+      "seed": 202606180303,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "dac7322f-faae-4c2f-8266-d55c1aec68aa",
+      "comfy_output": {
+        "filename": "batch_c_20260618_smartcashflow_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-04.png",
+      "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-04.png",
+      "prompt": "realistic gift and travel budget still life with plain wrapped box and blank checklist, no price tags",
+      "seed": 202606180304,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "973421bb-3de2-4d9d-af65-d200d6195bc3",
+      "comfy_output": {
+        "filename": "batch_c_20260618_smartcashflow_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-05.png",
+      "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-05.png",
+      "prompt": "realistic post-trip cash flow review with sealed envelope and blank paper, no receipts no calculator no money",
+      "seed": 202606180305,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "440a9f18-db6c-46ea-9378-4e0b9a913e2c",
+      "comfy_output": {
+        "filename": "batch_c_20260618_smartcashflow_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/scf-wedding-guest-travel-20260618-contact-sheet.jpg",
+  "visual_qa": "contact_sheet_created_pending_human_or_vision_review"
+}
