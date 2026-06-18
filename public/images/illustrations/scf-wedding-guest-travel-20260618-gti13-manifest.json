@@ -120,15 +120,15 @@
     {
       "file": "public/images/illustrations/scf-wedding-guest-travel-20260618-05.png",
       "render_url": "/images/illustrations/scf-wedding-guest-travel-20260618-05.png",
-      "prompt": "realistic post-trip cash flow review with sealed envelope and blank paper, no receipts no calculator no money",
-      "seed": 202606180305,
+      "prompt": "realistic post-trip wedding guest travel budget review with sealed kraft envelope, blank paper, closed folder, plain pen, small plant, no money, no currency, no receipts, no tickets, no calculator, no readable text",
+      "seed": 202606189052,
       "dimensions": [
         1536,
         864
       ],
-      "prompt_id": "440a9f18-db6c-46ea-9378-4e0b9a913e2c",
+      "prompt_id": "c7e59a39-82ad-413e-87af-7785bf2b6495",
       "comfy_output": {
-        "filename": "batch_c_20260618_smartcashflow_05_00001_.png",
+        "filename": "batch_c_20260618_repair_smartcashflow_05_00001_.png",
         "subfolder": "",
         "type": "output"
       },
@@ -137,9 +137,10 @@
       "cfg": 5.0,
       "sampler": "dpmpp_2m",
       "scheduler": "karras",
-      "host": "gti13"
+      "host": "gti13",
+      "status": "visual_qa_regenerated"
     }
   ],
   "contact_sheet": "public/images/illustrations/scf-wedding-guest-travel-20260618-contact-sheet.jpg",
-  "visual_qa": "contact_sheet_created_pending_human_or_vision_review"
+  "visual_qa": "final contact sheet manually/vision inspected; regenerated noted assets for screen/currency artifacts"
 }
