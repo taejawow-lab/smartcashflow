@@ -1,0 +1,100 @@
+{
+  "date": "2026-06-19",
+  "site": "smartcashflow",
+  "slug": "appliance-repair-estimate-cash-flow-plan-2026",
+  "host": "gti13-direct",
+  "endpoint_redacted": true,
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 26,
+    "cfg": 5.3,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/scf-appliance-repair-20260619-hero.png",
+      "seed": 202606190300,
+      "prompt": "household appliance repair planning table with closed folder, blank estimate sheet, wrench, no readable text",
+      "prompt_id": "dc152849-2c6c-415c-b179-8e20cb119614",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-appliance-repair-20260619-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-appliance-repair-20260619-01.png",
+      "seed": 202606190301,
+      "prompt": "plain kitchen appliance with service tool bag nearby, safe unplugged setting, no labels",
+      "prompt_id": "7681f896-29dd-4fde-89ce-e51cbd4c0b6c",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-appliance-repair-20260619-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-appliance-repair-20260619-02.png",
+      "seed": 202606192001,
+      "prompt": "appliance repair cash flow planning still life with blank colored envelopes, closed plain folder, pen, small safe appliance knob, plain wooden table, no calculator, no papers with writing, no numbers, no money",
+      "prompt_id": "7d2b4faa-38ba-4fbe-abca-4e5d595deac4",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "raw_output": {
+        "filename": "scf-appliance-repair-20260619-02-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "round": "final2"
+    },
+    {
+      "file": "public/images/illustrations/scf-appliance-repair-20260619-03.png",
+      "seed": 202606190303,
+      "prompt": "warranty check folder with appliance manual closed and blank sticky notes, no readable text",
+      "prompt_id": "9c26dc28-86b4-4446-af9e-d35008aad0de",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "scf-appliance-repair-20260619-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-appliance-repair-20260619-04.png",
+      "seed": 202606192002,
+      "prompt": "repair or replace decision still life with clean appliance corner, closed blank folder, plain screwdriver, blank cards, ceramic mug, no tape measure, no ruler, no numbers, no text, no forms",
+      "prompt_id": "ab5776d4-7b64-4f34-abf2-c37ff38d1d34",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "raw_output": {
+        "filename": "scf-appliance-repair-20260619-04-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "round": "final2"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/scf-appliance-repair-20260619-contact-sheet.jpg",
+  "visual_qa": "PASS: final contact sheet reviewed after targeted regenerations; retained 5 topic-accurate 1536x864 GTI13 raster images with no readable text/UI/risky object artifacts.",
+  "regeneration_note": "Replaced QA-risk images with prompts excluding labels, UI, logos, calculators, tape measures, and exposed wiring."
+}
