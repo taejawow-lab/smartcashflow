@@ -1,0 +1,63 @@
+{
+  "site": "smartcashflow",
+  "slug": "home-insurance-deductible-storm-season-sinking-fund-plan-2026",
+  "date": "2026-06-20",
+  "endpoint_host": "gti13-direct",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.4,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/scf-insurance-deductible-20260620-hero.png",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1804232,
+      "accepted": true
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-deductible-20260620-01.png",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1724722,
+      "accepted": true
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-deductible-20260620-03.png",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1951200,
+      "accepted": true
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-deductible-20260620-04.png",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1451311,
+      "accepted": true
+    },
+    {
+      "file": "public/images/illustrations/scf-insurance-deductible-20260620-05.png",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1569029,
+      "accepted": true
+    }
+  ],
+  "visual_qa": "PASS after contact-sheet review; rejected smartcashflow -02 excluded; securebyteguide skipped due QA; no rejected assets staged."
+}
