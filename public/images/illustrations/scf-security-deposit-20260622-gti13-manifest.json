@@ -1,0 +1,98 @@
+{
+  "site": "smartcashflow",
+  "slug": "apartment-security-deposit-move-out-cash-flow-plan-2026",
+  "generated_at": "2026-06-22T04:19:57Z",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow": {
+    "width": 1536,
+    "height": 864,
+    "steps": 26,
+    "cfg": 5.4,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, watermark, logo, brand mark, label, readable screen, app UI, login UI, document text, receipt, form, calendar grid, calculator digits, keyboard closeup, QR code, barcode, child face closeup, distorted anatomy, deformed hands, unsafe scene, medical procedure, stock photo cliché, low resolution, blurry"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/scf-security-deposit-20260622-hero.png",
+      "seed": 202606223000,
+      "prompt": "apartment move-out budgeting table with blank envelopes, keys, closed folder, no text, no money",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "84502228-fec2-4b81-bff8-9859130ce161",
+      "comfy_output": {
+        "filename": "scf-security-deposit-20260622-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-security-deposit-20260622-02.png",
+      "seed": 202606223002,
+      "prompt": "renter documenting room condition with phone dark screen and blank clipboard, no UI, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a3daaecc-f14b-42c0-8af6-58559305cc94",
+      "comfy_output": {
+        "filename": "scf-security-deposit-20260622-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-security-deposit-20260622-03.png",
+      "seed": 202606223003,
+      "prompt": "cleaning supply still life with plain unlabeled bottles and blank checklist cards",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8dfdb529-a2f8-4209-88de-9da3cccaeb1a",
+      "comfy_output": {
+        "filename": "scf-security-deposit-20260622-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-security-deposit-20260622-04.png",
+      "seed": 202606223004,
+      "prompt": "calm dispute planning desk with closed folder, blank papers, keys, no readable documents",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "2d8abdeb-e43e-4544-9339-4516125a8b4b",
+      "comfy_output": {
+        "filename": "scf-security-deposit-20260622-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/scf-security-deposit-20260622-05.png",
+      "seed": 202606223005,
+      "prompt": "new apartment budget buffer scene with sealed envelopes, keys, blank cards, no currency or calculator",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "72675941-457e-4612-beda-091a0b854e4c",
+      "comfy_output": {
+        "filename": "scf-security-deposit-20260622-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/scf-security-deposit-20260622-contact-sheet-final.jpg",
+  "visual_qa": "passed_after_excluding_rejected_assets",
+  "visual_qa_notes": "Rejected/excluded: public/images/illustrations/scf-security-deposit-20260622-01.png",
+  "contact_sheet_final": "public/images/illustrations/scf-security-deposit-20260622-contact-sheet-final.jpg"
+}
