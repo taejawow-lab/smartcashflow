@@ -1,0 +1,248 @@
+{
+  "generated_at": "2026-06-23T04:15:44Z",
+  "date": "2026-06-23",
+  "batch": "C",
+  "endpoint": "redacted-gti13-direct",
+  "host": "gti13-direct",
+  "gate_reason": "sentinel_unreachable_but_direct_comfyui_ok",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, app screen, QR code, barcode, distorted hands, bad anatomy, extra fingers, unsafe handling, medical procedure, fake warning label, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image, receipt, form, currency, calculator numbers, passport, license plate"
+  },
+  "queue_before": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "system_stats_seen": true,
+  "site": "smartcashflow",
+  "slug": "hospital-financial-assistance-application-cash-flow-plan-2026",
+  "title": "Hospital Financial Assistance Application Cash Flow Plan for 2026",
+  "article": "src/content/posts/hospital-financial-assistance-application-cash-flow-plan-2026.mdx",
+  "source_validation": [
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/medical-debt/",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.consumerfinance.gov/rules-policy/medical-debt/",
+      "error": null
+    },
+    {
+      "url": "https://www.cms.gov/nosurprises/consumers",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.cms.gov/medical-bill-rights",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://www.cms.gov/nosurprises/consumers/complaints-about-medical-billing",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.cms.gov/medical-bill-rights",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://www.healthcare.gov/using-marketplace-coverage/rights-and-protections/surprise-medical-bills/",
+      "ok": false,
+      "status": null,
+      "final": null,
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.irs.gov/charities-non-profits/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r",
+      "ok": false,
+      "status": null,
+      "final": null,
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://consumer.ftc.gov/articles/debt-collection-faqs",
+      "ok": true,
+      "status": 200,
+      "final": "https://consumer.ftc.gov/articles/debt-collection-faqs",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://www.annualcreditreport.com/index.action",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.annualcreditreport.com/index.action",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://consumer.gov/managing-your-money/making-budget",
+      "ok": true,
+      "status": 200,
+      "final": "https://consumer.gov/your-money/making-budget",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/images/illustrations/scf-hospital-assistance-20260623-hero.png",
+      "filename": "scf-hospital-assistance-20260623-hero.png",
+      "suffix": "hero",
+      "seed": 202606230319,
+      "prompt": "household hospital bill assistance planning desk with blank folders and sealed envelopes, no forms no text",
+      "prompt_id": "ae29b773-2764-479a-86fc-ae146ebca6f1",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_smartcashflow_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1438670
+    },
+    {
+      "file": "public/images/illustrations/scf-hospital-assistance-20260623-01.png",
+      "filename": "scf-hospital-assistance-20260623-01.png",
+      "suffix": "01",
+      "seed": 202606230320,
+      "prompt": "person organizing medical bill documents face down blank, laptop closed, no readable numbers",
+      "prompt_id": "2d8a5b17-51dd-4339-98c5-a809af690cd0",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_smartcashflow_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1891905
+    },
+    {
+      "file": "public/images/illustrations/scf-hospital-assistance-20260623-02.png",
+      "filename": "scf-hospital-assistance-20260623-02.png",
+      "suffix": "02",
+      "seed": 202606230321,
+      "prompt": "phone call preparation for hospital billing office with blank notepad closed and dark phone screen, no UI",
+      "prompt_id": "b68bc7fa-88de-485a-85b0-f586a2aeb824",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_smartcashflow_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1194866
+    },
+    {
+      "file": "public/images/illustrations/scf-hospital-assistance-20260623-03.png",
+      "filename": "scf-hospital-assistance-20260623-03.png",
+      "suffix": "03",
+      "seed": 202606230322,
+      "prompt": "cash flow envelope planning with plain colored envelopes and no currency no numbers",
+      "prompt_id": "6a29b2ea-2981-4962-af22-79da6b157a7d",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_smartcashflow_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1515470
+    },
+    {
+      "file": "public/images/illustrations/scf-hospital-assistance-20260623-04.png",
+      "filename": "scf-hospital-assistance-20260623-04.png",
+      "suffix": "04",
+      "seed": 202606230323,
+      "prompt": "financial assistance evidence folder with blank papers and plain clips, no official seals no text",
+      "prompt_id": "e2ed955e-7957-4d75-80fc-2db904e103f2",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_smartcashflow_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1458240
+    },
+    {
+      "file": "public/images/illustrations/scf-hospital-assistance-20260623-05.png",
+      "filename": "scf-hospital-assistance-20260623-05.png",
+      "suffix": "05",
+      "seed": 202606230324,
+      "prompt": "calm family budget review table with closed laptop and blank cards, no calculator numbers no documents text",
+      "prompt_id": "e8265a38-6cb1-4df7-9862-2a63ad9334fe",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_smartcashflow_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1583562
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260623-smartcashflow-contact-sheet.jpg",
+  "contact_sheet_windows": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch_c_20260623_smartcashflow_contact_sheet.jpg",
+  "visual_qa": "pending external visual inspection before commit",
+  "repair_regenerations": [
+    {
+      "filename": "scf-hospital-assistance-20260623-01.png",
+      "suffix": "01",
+      "seed": 202606239001,
+      "prompt": "hospital financial assistance planning scene using only plain closed folders, blank colored cards, sealed blank envelopes, no paper forms, no writing, no money, no calculator, no screen",
+      "prompt_id": "74c7356b-fe76-48a7-9af9-aae645a30db9",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_repair_scf_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1706454
+    },
+    {
+      "filename": "scf-hospital-assistance-20260623-03.png",
+      "suffix": "03",
+      "seed": 202606239003,
+      "prompt": "cash flow planning scene with plain blank envelopes, colored blocks, closed laptop, no currency, no cards, no calculator, no numbers, no documents",
+      "prompt_id": "842d8ef6-a107-41d9-9f89-b4ffafdf6030",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_repair_scf_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1641812
+    },
+    {
+      "filename": "scf-hospital-assistance-20260623-01.png",
+      "suffix": "01",
+      "seed": 202606239101,
+      "prompt": "abstract hospital assistance planning metaphor with plain closed manila folders, blank colored wooden blocks, sealed blank envelopes, simple ceramic cup, no papers visible",
+      "prompt_id": "76f33da1-dbbf-4de4-aa04-d5a78e31e9ee",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_repair2_scf_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1432480
+    },
+    {
+      "filename": "scf-hospital-assistance-20260623-03.png",
+      "suffix": "03",
+      "seed": 202606239103,
+      "prompt": "cash flow protection metaphor with plain wooden blocks, closed blank envelopes, empty tray, smooth stones, no money no paper no devices",
+      "prompt_id": "ef0edb0d-6af0-49f9-9778-523896cadbf3",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_repair2_scf_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1861565
+    }
+  ]
+}
