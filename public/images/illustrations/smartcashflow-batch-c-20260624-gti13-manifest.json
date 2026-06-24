@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-06-24T04:26:56Z",
+  "gate": {
+    "host": "gti13",
+    "time": 1782274546,
+    "available": true,
+    "reason": "ok",
+    "manual_pause": false,
+    "gaming_detected": false,
+    "game_processes": [],
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 4090",
+      "vram_total_mb": 24564,
+      "vram_free_mb": 15378,
+      "utilization_percent": 0
+    },
+    "services": {
+      "comfyui_8188": true,
+      "ollama_11434": true
+    }
+  },
+  "endpoint_host": "gti13",
+  "workflow_checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-pet-rent-20260624-1.png",
+      "render_url": "/images/illustrations/scf-pet-rent-20260624-1.png",
+      "seed": 202606240300,
+      "prompt_id": "de91b471-116a-4aeb-84e2-6e5f09a8b253",
+      "prompt": "renter budgeting scene with pet bed, lease folder closed, calculator absent, blank cards, calm apartment light",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1698906
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-pet-rent-20260624-2.png",
+      "render_url": "/images/illustrations/scf-pet-rent-20260624-2.png",
+      "seed": 202606240301,
+      "prompt_id": "32e76b00-649a-499c-9c73-d5323a76bda3",
+      "prompt": "moving boxes and pet carrier in apartment entry, sealed envelope, keys, no documents readable",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1652481
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-pet-rent-20260624-3.png",
+      "render_url": "/images/illustrations/scf-pet-rent-20260624-3.png",
+      "seed": 202606240302,
+      "prompt_id": "9c9aa4b6-ee1d-47e3-b769-c664676ab841",
+      "prompt": "pet supplies and budgeting envelopes blank, no money visible, warm finance editorial photo",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1590560
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-pet-rent-20260624-4.png",
+      "render_url": "/images/illustrations/scf-pet-rent-20260624-4.png",
+      "seed": 202606240303,
+      "prompt_id": "0f808d24-912e-41a7-86b4-75e64c49e5aa",
+      "prompt": "apartment walkthrough preparation with phone face down, blank checklist board, pet bowl, no text",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1562811
+    },
+    {
+      "site": "smartcashflow",
+      "file": "public/images/illustrations/scf-pet-rent-20260624-5.png",
+      "seed": 202606249334,
+      "prompt_id": "d8f9a026-6579-4061-816a-2cd332d204cc",
+      "prompt": "pet-friendly apartment budgeting still life, single plain key, blank kraft envelope, small pet toy, neutral table, no papers, no documents, no calculator, no calendar, no money, no numbers, no text",
+      "extra_negative": "calculator, calendar, numbers, paper, document, lease, form, receipt, currency, money, text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "status": "regenerated_after_final_visual_qa"
+    }
+  ],
+  "visual_qa": "Final contact sheet visually inspected; targeted regenerations removed screen/face/calendar/calculator risks; accepted for publication."
+}
