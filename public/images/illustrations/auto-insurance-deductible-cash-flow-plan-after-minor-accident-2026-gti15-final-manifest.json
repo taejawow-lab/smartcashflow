@@ -1,0 +1,48 @@
+{
+  "site": "smartcashflow",
+  "slug": "auto-insurance-deductible-cash-flow-plan-after-minor-accident-2026",
+  "gate": "passed",
+  "date": "2026-06-26",
+  "assets": [
+    {
+      "url": "/images/illustrations/sma-auto-insurance-deductible-cash-flow-plan-after-minor-accident-2026-gti15-1.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626\\smartcashflow\\37200824\\20260626_131907_realvis_3854694007.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/sma-auto-insurance-deductible-cash-flow-plan-after-minor-accident-2026-gti15-2.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626\\smartcashflow\\26528706\\20260626_132011_realvis_1138039769.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/sma-auto-insurance-deductible-cash-flow-plan-after-minor-accident-2026-gti15-3.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626_regen\\smartcashflow\\58217908\\20260626_132747_realvis_1382525024.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/sma-auto-insurance-deductible-cash-flow-plan-after-minor-accident-2026-gti15-4.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626_regen\\smartcashflow\\54711545\\20260626_132901_realvis_1419847759.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/sma-auto-insurance-deductible-cash-flow-plan-after-minor-accident-2026-gti15-5.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626_regen\\smartcashflow\\54711545\\20260626_132918_juggernaut_1419847760.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    }
+  ]
+}
