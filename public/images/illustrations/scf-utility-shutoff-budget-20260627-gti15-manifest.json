@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-27",
+  "site": "smartcashflow",
+  "slug": "summer-utility-shutoff-notice-emergency-budget-plan-2026",
+  "endpoint": "GTI15 direct ComfyUI endpoint (redacted)",
+  "dimensions": "1536x864",
+  "source": "C:/Users/k8plus/gti15_setup/generate_natural_blog_candidates.py",
+  "accepted_images": [
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/smartcashflow_repair_09/20260627_132447_krea_1143728639.png",
+      "to": "public/images/illustrations/scf-utility-shutoff-budget-20260627-hero.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/smartcashflow_repair_09/20260627_132522_realvis_1143728640.png",
+      "to": "public/images/illustrations/scf-utility-shutoff-budget-20260627-01.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/smartcashflow_repair_09/20260627_132539_juggernaut_1143728641.png",
+      "to": "public/images/illustrations/scf-utility-shutoff-budget-20260627-02.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/smartcashflow_repair_10/20260627_132632_realvis_833086836.png",
+      "to": "public/images/illustrations/scf-utility-shutoff-budget-20260627-03.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/smartcashflow_repair_10/20260627_132648_juggernaut_833086837.png",
+      "to": "public/images/illustrations/scf-utility-shutoff-budget-20260627-04.png"
+    }
+  ],
+  "visual_qa": "accepted after contact sheet inspection; rejected originals not referenced"
+}
