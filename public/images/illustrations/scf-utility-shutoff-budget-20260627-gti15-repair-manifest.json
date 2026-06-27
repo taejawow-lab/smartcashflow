@@ -1,0 +1,18 @@
+{
+  "site": "smartcashflow",
+  "slug": "summer-utility-shutoff-notice-emergency-budget-plan-2026",
+  "backend": "GTI15 ComfyUI",
+  "endpoint": "redacted",
+  "repair": "replaced finance-risk hero that contained money/calculator",
+  "accepted": [
+    {
+      "file": "scf-utility-shutoff-budget-20260627-hero-repair.png",
+      "engine": "juggernaut",
+      "seed": 937837056,
+      "prompt_id": "8a746526-3aeb-4b8b-bf22-29b175e18098",
+      "dimensions": "1536x864"
+    }
+  ],
+  "qa": "visual QA passed: no money/coins/calculator/bills/forms/readable text/screens/logos/hands/people",
+  "createdAt": "2026-06-27T14:53:06.606460+00:00"
+}
