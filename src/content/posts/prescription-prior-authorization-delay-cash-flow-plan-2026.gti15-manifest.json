@@ -1,0 +1,44 @@
+{
+  "site": "smartcashflow",
+  "slug": "prescription-prior-authorization-delay-cash-flow-plan-2026",
+  "date": "2026-07-01",
+  "endpoint_host": "GTI15 ComfyUI (internal endpoint redacted in report)",
+  "accepted": [
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/smartcashflow/prompt2/20260701_132140_realvis_1413792584.png",
+      "published": "/home/taekm33/blog-ops/16-sites/smartcashflow/public/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-01.png",
+      "url": "/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-01.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/smartcashflow/prompt2/20260701_132157_juggernaut_1413792585.png",
+      "published": "/home/taekm33/blog-ops/16-sites/smartcashflow/public/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-02.png",
+      "url": "/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-02.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/smartcashflow/repair3/20260701_133100_realvis_2451465522.png",
+      "published": "/home/taekm33/blog-ops/16-sites/smartcashflow/public/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-03.png",
+      "url": "/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-03.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/smartcashflow/repair3/20260701_133118_juggernaut_2451465523.png",
+      "published": "/home/taekm33/blog-ops/16-sites/smartcashflow/public/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-04.png",
+      "url": "/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-04.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/smartcashflow/repair4/20260701_133214_realvis_1569567686.png",
+      "published": "/home/taekm33/blog-ops/16-sites/smartcashflow/public/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-05.png",
+      "url": "/images/illustrations/scf-prescription-prior-authorization-delay-cash-flow-plan-2026-gti15-05.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    }
+  ],
+  "visual_qa": "passed after rejecting unsafe/text/UI/currency/medicine/document candidates as applicable"
+}
