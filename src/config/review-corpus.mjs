@@ -1,0 +1,28 @@
+export const REVIEW_POSTS = [
+  "401k-vs-roth-ira-by-age",
+  "balance-transfer-cards-tested",
+  "bank-app-outage-emergency-cash-buffer-fraud-checklist-2026",
+  "charitable-giving-tax-strategies",
+  "credit-card-payoff-avalanche-vs-snowball",
+  "dental-treatment-estimate-cash-flow-plan-before-scheduling-2026",
+  "disability-insurance-self-employed",
+  "emergency-fund-3-vs-6-months",
+  "emergency-fund-ladder-high-yield-tbills",
+  "emergency-vet-bill-cash-flow-triage-plan-2026",
+  "estate-planning-basics",
+  "hsa-reimbursement-strategy-receipts",
+  "hsa-triple-tax-advantage-math",
+  "lump-sum-vs-dca-vanguard-study",
+  "midyear-paycheck-withholding-checkup-2026",
+  "mortgage-payoff-vs-invest-math",
+  "pet-rent-and-deposit-lease-cash-flow-plan-2026",
+  "quarterly-estimated-tax-safe-harbor-freelancers",
+  "reg-e-bank-fraud-cash-flow-playbook",
+  "roth-conversion-ladder-early-retirement",
+  "student-loan-refinance-strategies",
+  "summer-utility-shutoff-notice-emergency-budget-plan-2026",
+  "term-vs-whole-life-insurance-math",
+  "umbrella-insurance-coverage-needed"
+];
+export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
+export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
