@@ -1,0 +1,81 @@
+{
+  "site": "smartcashflow",
+  "slug_prefix": "scf-repair-replace-20260816",
+  "generated_at": "2026-08-16",
+  "assets": [
+    {
+      "prompt_id": "8309679b-18d2-4d53-ab3a-80d6a945df35",
+      "seed": 1016260000,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "two plain unbranded wooden model cars facing two diverging paths beside a closed metal toolbox, studio still life",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "scf-repair-replace-20260816-hero.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "92f3e5b6-00a3-43fe-8256-654bb1fbd58a",
+      "seed": 1016260201,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "closed plain metal toolbox beside two diverging wooden paths and several completely blank wood blocks",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "scf-repair-replace-20260816-01.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "49ac39cc-8414-4ab0-9561-10b2a4466cca",
+      "seed": 1016260001,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "clean automotive brake rotor and suspension spring on a plain studio table, isolated objects only",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "scf-repair-replace-20260816-02.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "013c9f38-36a0-4797-adaa-239f4eab82d7",
+      "seed": 916260303,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "two plain car keys balanced on opposite sides of a simple wooden balance with blank wooden blocks only",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "scf-repair-replace-20260816-03.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "31fce06c-5218-417a-82a9-595983d6edbc",
+      "seed": 1016260204,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "closed plain metal toolbox beside two metal gears and twelve completely blank wooden blocks arranged in four groups",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "scf-repair-replace-20260816-05.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    }
+  ],
+  "contact_sheet": "scf-repair-replace-20260816-contact-sheet-published.jpg",
+  "visual_qa": "PASS: strict final contact-sheet inspection; only accepted published assets retained.",
+  "publish_policy": "Only listed assets may be transferred after final contact-sheet visual QA.",
+  "published_asset_count": 5
+}

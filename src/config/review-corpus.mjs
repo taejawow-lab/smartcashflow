@@ -22,7 +22,8 @@ export const REVIEW_POSTS = [
   "student-loan-refinance-strategies",
   "summer-utility-shutoff-notice-emergency-budget-plan-2026",
   "term-vs-whole-life-insurance-math",
-  "umbrella-insurance-coverage-needed"
+  "umbrella-insurance-coverage-needed",
+  "car-repair-or-replace-cash-flow-decision"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
