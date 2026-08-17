@@ -23,7 +23,8 @@ export const REVIEW_POSTS = [
   "summer-utility-shutoff-notice-emergency-budget-plan-2026",
   "term-vs-whole-life-insurance-math",
   "umbrella-insurance-coverage-needed",
-  "car-repair-or-replace-cash-flow-decision"
+  "car-repair-or-replace-cash-flow-decision",
+  "open-enrollment-paycheck-cost-calculator"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
