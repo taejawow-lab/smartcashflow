@@ -1,0 +1,64 @@
+{
+  "site": "smartcashflow",
+  "date": "2026-08-20",
+  "assets": [
+    {
+      "filename": "scf-inherited-ira-20260820-hero.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820_replacements3\\smartcashflow\\01\\20260820_143455_krea_3031903703.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "dcc40005-1ef4-48fe-b2dd-2fbe8fc81e3c",
+      "seed": 3031903703,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "scf-inherited-ira-20260820-01.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820_replacements2\\smartcashflow\\02\\20260820_143248_krea_446329866.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "ff21cc2f-7193-417c-b6ca-54a7e8e79431",
+      "seed": 446329866,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "scf-inherited-ira-20260820-02.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820_replacements2\\smartcashflow\\03\\20260820_143300_krea_205506498.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "2ad0976d-6a79-4145-82da-2823da551958",
+      "seed": 205506498,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "scf-inherited-ira-20260820-03.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820\\smartcashflow\\04\\20260820_142324_krea_3629035937.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "906e4550-c78d-426c-a9eb-43e003683a09",
+      "seed": 3629035937,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "scf-inherited-ira-20260820-04.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820\\smartcashflow\\05\\20260820_142336_krea_1483388918.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "4b633afa-16f9-4ecd-a67b-bc8b3a1d8359",
+      "seed": 1483388918,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    }
+  ],
+  "rejected_excluded": [
+    "scf-inherited-ira-20260820-05.png"
+  ]
+}
