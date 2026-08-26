@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-08-26",
+  "backend": "GTI15 ComfyUI",
+  "endpoint": "redacted",
+  "article_slug": "529-scholarship-offset-qualified-college-cost-ledger",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "filename": "scf-529-scholarship-20260826-hero.png",
+      "engine": "realvis",
+      "seed": 3676110564,
+      "prompt_id": "ef902a10-53eb-46c4-b4a2-3ceac75827f3",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1564854,
+      "prompt": "Natural editorial college planning still life for a 529 scholarship distribution ledger: closed plain folders, sealed envelope, wooden tokens and three empty ceramic bowls on clean desk, dark closed laptop, no people, no hands, no money, no coins, no calculator, no forms, no receipts, no text, no numbers, no labels, no logos, no screen UI, horizontal 16 by 9",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "scf-529-scholarship-20260826-01.png",
+      "engine": "juggernaut",
+      "seed": 3676110565,
+      "prompt_id": "2e2e914b-4399-4397-a89c-f40b6e9f6744",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1151701,
+      "prompt": "Natural editorial college planning still life for a 529 scholarship distribution ledger: closed plain folders, sealed envelope, wooden tokens and three empty ceramic bowls on clean desk, dark closed laptop, no people, no hands, no money, no coins, no calculator, no forms, no receipts, no text, no numbers, no labels, no logos, no screen UI, horizontal 16 by 9",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "scf-529-scholarship-20260826-02.png",
+      "engine": "realvis",
+      "seed": 3964997666,
+      "prompt_id": "7732c3e1-0930-4672-9fac-dee5987df5e0",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1432470,
+      "prompt": "Editorial education cost coordination still life: three color-separated completely blank folders, plain wooden blocks, sealed envelope, key and empty tray, closed dark-screen laptop, no people, no hands, no currency, no coins, no calculator, no calendar, no forms or receipts, no text, no numbers, no logos, realistic daylight, horizontal composition",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "scf-529-scholarship-20260826-03.png",
+      "engine": "juggernaut",
+      "seed": 3964997667,
+      "prompt_id": "1e5bde88-39de-4b60-89be-e308e2851f09",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1427095,
+      "prompt": "Editorial education cost coordination still life: three color-separated completely blank folders, plain wooden blocks, sealed envelope, key and empty tray, closed dark-screen laptop, no people, no hands, no currency, no coins, no calculator, no calendar, no forms or receipts, no text, no numbers, no logos, realistic daylight, horizontal composition",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "scf-529-scholarship-20260826-04.png",
+      "engine": "juggernaut",
+      "seed": 4107827436,
+      "prompt_id": "981e35da-fa9e-4910-a915-95a08a7348ce",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1196456,
+      "prompt": "Professional editorial still life illustrating education cost allocation: five different empty ceramic bowls arranged in a row with plain natural wooden cubes grouped beside each bowl, one small closed cloth pouch, clean light wood table, no folders, no computer, no paper, no documents, no envelope, no key, no money, no coins, no calculator, no calendar, no people, no hands, no text, no numbers, no labels, no logos, physically plausible soft daylight, horizontal 16 by 9",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    }
+  ],
+  "qa": "Final selected assets visually inspected; rejected candidates excluded."
+}

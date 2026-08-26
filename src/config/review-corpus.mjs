@@ -26,7 +26,8 @@ export const REVIEW_POSTS = [
   "car-repair-or-replace-cash-flow-decision",
   "open-enrollment-paycheck-cost-calculator",
   "inherited-ira-10-year-rule-withdrawal-cash-flow-planner",
-  "401k-loan-hardship-withdrawal-repayment-tax-job-risk"
+  "401k-loan-hardship-withdrawal-repayment-tax-job-risk",
+  "529-scholarship-offset-qualified-college-cost-ledger"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
