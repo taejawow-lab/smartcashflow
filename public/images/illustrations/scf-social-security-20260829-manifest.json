@@ -1,0 +1,76 @@
+{
+  "site": "smartcashflow",
+  "slug": "social-security-claiming-age-break-even-longevity-cash-flow",
+  "generated_at": "2026-08-29T17:00:00+09:00",
+  "generator": "GTI15 ComfyUI",
+  "generator_endpoint": "http://192.168.50.31:8188",
+  "visual_qa": "PASS after iterative contact-sheet review; rejected candidates excluded",
+  "contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_selected/smartcashflow-selected-contact-sheet.jpg",
+  "assets": [
+    {
+      "engine": "krea",
+      "seed": 2026082956,
+      "prompt_id": "b35cc06b-27ed-4f40-a2f9-82c27eeaec1e",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_final2/smartcashflow/00/20260829_170540_krea_2026082956.png",
+      "prompt": "realistic studio still life of a plain wooden hourglass beside three branching wooden paths and blank closed folders, warm neutral background. only plain unlabeled objects, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no screen, no user interface, no document, no paper, no form, no bottle, no medicine, no calculator, no currency, no card, no keyboard, no smartphone, no people, no hands, no faces, no distorted geometry",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "scf-social-security-20260829-hero.png",
+      "bytes": 1422672
+    },
+    {
+      "engine": "krea",
+      "seed": 2026082957,
+      "prompt_id": "28e95f30-8daf-42e9-9e00-3ab148760e25",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_final2/smartcashflow/01/20260829_170553_krea_2026082957.png",
+      "prompt": "realistic studio still life of one elegant wooden hourglass surrounded by three smooth river stones, warm morning light, minimalist composition. only plain unlabeled objects, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no screen, no user interface, no document, no paper, no form, no bottle, no medicine, no calculator, no currency, no card, no keyboard, no smartphone, no people, no hands, no faces, no distorted geometry",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "scf-social-security-20260829-01.png",
+      "bytes": 1421538
+    },
+    {
+      "engine": "krea",
+      "seed": 2026082960,
+      "prompt_id": "8b430136-50ef-4229-838e-369fe474f240",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_final2/smartcashflow/04/20260829_170633_krea_2026082960.png",
+      "prompt": "realistic abstract landscape photograph of three gently diverging stone paths crossing a calm meadow at sunrise, no signs and no people. only plain unlabeled objects, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no screen, no user interface, no document, no paper, no form, no bottle, no medicine, no calculator, no currency, no card, no keyboard, no smartphone, no people, no hands, no faces, no distorted geometry",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "scf-social-security-20260829-02.png",
+      "bytes": 1802168
+    },
+    {
+      "engine": "krea",
+      "seed": 2026083016,
+      "prompt_id": "0a459a22-151a-406c-991a-7ad594f7fc27",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_regen/smartcashflow/00/20260829_165414_krea_2026083016.png",
+      "prompt": "realistic retirement planning editorial still life of three unmarked wooden paths branching around a simple hourglass, plain closed folder in background. no text, no letters, no numbers, no words, no labels, no logo, no watermark, no QR code, no screen, no UI, no phone, no computer, no paper, no document, no form, no calculator, no money, no cards, no hands, no faces, no people, no medicine bottle",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "scf-social-security-20260829-03.png",
+      "bytes": 1482922
+    },
+    {
+      "engine": "krea",
+      "seed": 2026083018,
+      "prompt_id": "80dc2710-74ce-464a-8dec-b66995e43d42",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_regen/smartcashflow/02/20260829_165441_krea_2026083018.png",
+      "prompt": "abstract financial planning still life of a wooden balance holding three smooth unmarked stones with an hourglass centered behind it. no text, no letters, no numbers, no words, no labels, no logo, no watermark, no QR code, no screen, no UI, no phone, no computer, no paper, no document, no form, no calculator, no money, no cards, no hands, no faces, no people, no medicine bottle",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "scf-social-security-20260829-04.png",
+      "bytes": 1502546
+    }
+  ]
+}
