@@ -28,7 +28,8 @@ export const REVIEW_POSTS = [
   "inherited-ira-10-year-rule-withdrawal-cash-flow-planner",
   "401k-loan-hardship-withdrawal-repayment-tax-job-risk",
   "529-scholarship-offset-qualified-college-cost-ledger",
-  "social-security-claiming-age-break-even-longevity-cash-flow"
+  "social-security-claiming-age-break-even-longevity-cash-flow",
+  "traditional-ira-rmd-calendar-first-year-withholding-qcd"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

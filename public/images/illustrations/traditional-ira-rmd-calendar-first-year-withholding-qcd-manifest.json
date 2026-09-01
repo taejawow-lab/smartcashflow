@@ -1,0 +1,55 @@
+{
+  "site": "smartcashflow",
+  "slug": "traditional-ira-rmd-calendar-first-year-withholding-qcd",
+  "generator": "GTI15 ComfyUI",
+  "model": "flux1-krea-dev_fp8_scaled.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "accepted_count": 5,
+  "rejected_count": 6,
+  "qa": "PASS after explicit visual review; rejected text/UI/calculator/currency/form artifacts",
+  "assets": [
+    {
+      "filename": "scf-rmd-calendar-20260901-hero.png",
+      "prompt_id": "907666e8-2499-498d-a519-9257cd401621",
+      "seed": 3365963011,
+      "engine": "krea",
+      "accepted": true,
+      "visual": "timeline blocks and archive box"
+    },
+    {
+      "filename": "scf-rmd-calendar-20260901-01.png",
+      "prompt_id": "7acc5ed2-1342-4c88-961a-39f2f5192443",
+      "seed": 3974221398,
+      "engine": "krea",
+      "accepted": true,
+      "visual": "two connected year boxes"
+    },
+    {
+      "filename": "scf-rmd-calendar-20260901-02.png",
+      "prompt_id": "a54f1717-cd78-4f90-92ba-2c096f59a53a",
+      "seed": 4132750949,
+      "engine": "krea",
+      "accepted": true,
+      "visual": "graduated calculation blocks"
+    },
+    {
+      "filename": "scf-rmd-calendar-20260901-03.png",
+      "prompt_id": "4ae72cc1-d6d3-4c60-b45a-536aedd64792",
+      "seed": 2520244878,
+      "engine": "krea",
+      "accepted": true,
+      "visual": "charitable transfer still life"
+    },
+    {
+      "filename": "scf-rmd-calendar-20260901-04.png",
+      "prompt_id": "d2e290f2-50b5-4083-98b9-daff5fb0781d",
+      "seed": 4163744079,
+      "engine": "krea",
+      "accepted": true,
+      "visual": "five-stage natural stones"
+    }
+  ]
+}
