@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-09-28",
+  "site": "smartcashflow",
+  "purpose": "repair declared visualsCount for five retained guides",
+  "count": 15,
+  "contact_sheet": "external QA evidence: publishing-recovery-20260928/smartcashflow/contact-sheet-final3.jpg",
+  "assets": [
+    {
+      "slug": "401k-vs-roth-ira-by-age-01",
+      "file": "/images/illustrations/scf-401k-vs-roth-ira-by-age-01.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927000,
+      "prompt_id": "71f2968d-0002-4fef-999f-b3b2a41233a2",
+      "prompt": "Minimal abstract editorial photograph: three smooth unmarked wooden arches of different heights arranged beside one small green plant, seamless beige studio background, soft daylight, only wood and plant, no other objects, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "401k-vs-roth-ira-by-age-02",
+      "file": "/images/illustrations/scf-401k-vs-roth-ira-by-age-02.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927001,
+      "prompt_id": "f1c73a2e-76f9-4ab7-8e35-ae53427877f1",
+      "prompt": "Minimal abstract editorial photograph: two different matte ceramic vessels side by side with a plain wooden bridge connecting them, one small green leaf, seamless warm neutral background, only vessels bridge and leaf, no other objects, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "401k-vs-roth-ira-by-age-03",
+      "file": "/images/illustrations/scf-401k-vs-roth-ira-by-age-03.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927002,
+      "prompt_id": "a817aa04-ccb1-4c9b-b521-c04831de6f83",
+      "prompt": "Minimal abstract editorial photograph: five small potted plants progressing from seedling to mature plant, every pot plain matte clay directly on a clean shelf, no bases or discs, seamless cream wall, only plants and pots, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "emergency-fund-3-vs-6-months-01",
+      "file": "/images/illustrations/scf-emergency-fund-3-vs-6-months-01.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927003,
+      "prompt_id": "8874c178-0d65-4fad-81dd-06980e6db9fd",
+      "prompt": "Minimal abstract editorial photograph: three nested plain wooden boxes with fitted lids and a simple unbranded metal key resting beside them, clean beige tabletop, only boxes and key, no other objects, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "emergency-fund-3-vs-6-months-02",
+      "file": "/images/illustrations/scf-emergency-fund-3-vs-6-months-02.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 928000,
+      "prompt_id": "09e9b68e-7876-4cbb-95ef-3d92141c2c40",
+      "prompt": "Minimal abstract editorial photograph: one empty upholstered chair facing six plain upright wooden blocks arranged in a neat row on a bare beige floor, seamless cream wall, only chair and six wooden blocks, absolutely no other objects, no laptop, no computer, no envelope, no paper, no financial objects, no circular objects, no writing, no symbols, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "emergency-fund-3-vs-6-months-03",
+      "file": "/images/illustrations/scf-emergency-fund-3-vs-6-months-03.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927005,
+      "prompt_id": "7bc36f90-2ef6-46d3-92a1-3bb1f904957a",
+      "prompt": "Minimal abstract editorial photograph: six identical plain wooden blocks forming a protective semicircle around a small model home, clean warm studio, only wood blocks and model home, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "hsa-triple-tax-advantage-math-01",
+      "file": "/images/illustrations/scf-hsa-triple-tax-advantage-math-01.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927006,
+      "prompt_id": "8e730656-5aa4-4ccb-8db0-2143837a2ad7",
+      "prompt": "Minimal abstract editorial photograph: three translucent glass layers aligned over a small healthy green plant, soft daylight and clean white surface, only glass layers and plant, no medical objects, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "hsa-triple-tax-advantage-math-02",
+      "file": "/images/illustrations/scf-hsa-triple-tax-advantage-math-02.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927007,
+      "prompt_id": "b7717f0f-3deb-4015-9584-bb27dc8eeac9",
+      "prompt": "Minimal abstract editorial photograph: a plain closed archival box with three smooth unmarked wooden dividers beside it, soft natural light, only box and dividers, no medical objects, no envelopes, no documents, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "hsa-triple-tax-advantage-math-03",
+      "file": "/images/illustrations/scf-hsa-triple-tax-advantage-math-03.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 926008,
+      "prompt_id": "acabbe43-6aa7-4bab-87b6-4f010c56efea",
+      "prompt": "Editorial still life about long-term health savings growth: a healthy green plant beside three plain stacked wooden boxes and a closed unmarked folder, realistic photography, no people, no medical devices, no receipts, no forms, no currency, no calculator, no screens, no text, no numbers, no logos, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "lump-sum-vs-dca-vanguard-study-01",
+      "file": "/images/illustrations/scf-lump-sum-vs-dca-vanguard-study-01.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 926009,
+      "prompt_id": "9ac455ee-e1a1-42e9-89dc-c1a2f7d1d00b",
+      "prompt": "Editorial still life about immediate versus staged investing: one large plain wooden block beside a sequence of smaller identical blocks leading toward the same destination, realistic studio photography, no people, no currency, no coins, no charts, no calculator, no forms, no screens, no text, no numbers, no logos, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "lump-sum-vs-dca-vanguard-study-02",
+      "file": "/images/illustrations/scf-lump-sum-vs-dca-vanguard-study-02.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927008,
+      "prompt_id": "dc2f58d2-0f76-4f52-9744-54eda5745a64",
+      "prompt": "Minimal abstract editorial photograph: a simple clear hourglass between one large smooth stone on the left and a line of six small smooth stones on the right, clean beige surface, only hourglass and stones, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "lump-sum-vs-dca-vanguard-study-03",
+      "file": "/images/illustrations/scf-lump-sum-vs-dca-vanguard-study-03.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927009,
+      "prompt_id": "03cb3249-51b3-4b5f-a33a-1773f183b0f0",
+      "prompt": "Minimal abstract editorial photograph: two paths made from plain wooden tiles converging at the same small green plant, overhead view on seamless warm background, only tiles and plant, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "mortgage-payoff-vs-invest-math-01",
+      "file": "/images/illustrations/scf-mortgage-payoff-vs-invest-math-01.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 928001,
+      "prompt_id": "341c46c2-1d03-40a7-9060-548e376abd81",
+      "prompt": "Minimal abstract editorial photograph: a tiny plain model house on the left end of a simple wooden balance beam and one healthy potted plant on the right end, beam supported only by a triangular wooden fulcrum, seamless beige studio, only house beam fulcrum and plant, absolutely no other objects, no circular objects, no metal, no money, no writing, no symbols, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "mortgage-payoff-vs-invest-math-02",
+      "file": "/images/illustrations/scf-mortgage-payoff-vs-invest-math-02.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 928002,
+      "prompt_id": "c26cbe6b-eda4-481e-9cb8-91abdde51054",
+      "prompt": "Minimal abstract editorial photograph: one small plain model house at the start of two diverging paths made only from rectangular wooden tiles, one path ends at a larger house silhouette and the other at a mature green plant, overhead view on seamless beige background, only houses rectangular tiles and plant, absolutely no other objects, no circular objects, no metal, no key, no money, no writing, no symbols, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    },
+    {
+      "slug": "mortgage-payoff-vs-invest-math-03",
+      "file": "/images/illustrations/scf-mortgage-payoff-vs-invest-math-03.png",
+      "engine": "krea",
+      "model": "GTI15 Krea workflow",
+      "seed": 927012,
+      "prompt_id": "fba6b018-5c00-44d6-bfdf-b448b45d8d9e",
+      "prompt": "Minimal abstract editorial photograph: small model house in foreground and five plain potted plants increasing gradually in size toward soft daylight, every pot directly on the table with no bases or discs, only house and plants, no writing, no symbols, no money, no coins, no calculator, no paper, no device, no labels, no logo, no watermark",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "visual_qa": "PASS final3 contact sheet 2026-09-28"
+    }
+  ]
+}
